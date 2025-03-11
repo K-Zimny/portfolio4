@@ -1,0 +1,15 @@
+#main-nav-container {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: var(--main-nav-flex-direction);
+
+  nav {
+    flex-grow: 1;
+    min-width: 100px;
+    max-width: 150px;
+  }
+
+  main {
+    flex-grow: 4;
+  }
+}

@@ -6,7 +6,7 @@
   --main-nav-flex-direction: row;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   :root {
     --main-nav-flex-direction: column;
   }

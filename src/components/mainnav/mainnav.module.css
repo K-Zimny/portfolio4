@@ -5,11 +5,13 @@
 
   nav {
     flex-grow: 1;
+    width: min-content;
     min-width: 100px;
     max-width: 150px;
   }
 
   main {
     flex-grow: 4;
+    width: min-content;
   }
 }

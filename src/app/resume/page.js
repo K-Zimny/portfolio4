@@ -1,7 +1,10 @@
 export default function resume() {
   return (
-    <div>
-      <div>Resume</div>
-    </div>
+    <>
+      <h1>Resume</h1>
+      <div>
+        <div>Resume</div>
+      </div>
+    </>
   );
 }

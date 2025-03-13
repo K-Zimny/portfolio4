@@ -1,7 +1,11 @@
+import Works from "@/components/works/Works";
+
 export default function works() {
   return (
-    <div>
-      <div>Works</div>
-    </div>
+    <>
+      <h1>Works</h1>
+      <p>Lorum ipsum</p>
+      <Works></Works>
+    </>
   );
 }

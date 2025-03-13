@@ -55,7 +55,7 @@ const fakeWorks = [
 
 const Work = ({ title, src, alt, description }) => {
   return (
-    <div className="work">
+    <div>
       <h2>{title}</h2>
       <Image src={src} alt={alt} width={100} height={100}></Image>
       <p>{description}</p>

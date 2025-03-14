@@ -4,3 +4,7 @@
   gap: var(--space-lg);
   margin-block: var(--space-lg);
 }
+
+.work {
+  aspect-ratio: 1/1;
+}

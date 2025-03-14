@@ -13,24 +13,29 @@ const fakework = {
 
 export default function Work() {
   return (
-    <div id={style.work}>
-      <h1>{fakework.title}</h1>
-      <Image
-        src={fakework.src}
-        alt={fakework.alt}
-        width={100}
-        height={100}
-      ></Image>
-      <ul>
-        <li>
-          <Link href={fakework.href}>View the Project</Link>
-        </li>
-        <li>
-          <Link href={fakework.repo}>Read the Code</Link>
-        </li>
-      </ul>
+    <div id={style["work-container"]}>
+      <div id={style.work}>
+        <h1>{fakework.title}</h1>
+        <Image
+          src={fakework.src}
+          alt={fakework.alt}
+          width={100}
+          height={100}
+        ></Image>
+        <ul>
+          <li>
+            <Link href={fakework.href}>View the Project</Link>
+          </li>
+          <li>
+            <Link href={fakework.repo}>Read the Code</Link>
+          </li>
+        </ul>
 
-      <p>{fakework.description}</p>
+        <p>{fakework.description}</p>
+      </div>
+      <div>
+        <Link href="/works">Back to Works</Link>
+      </div>
     </div>
   );
 }

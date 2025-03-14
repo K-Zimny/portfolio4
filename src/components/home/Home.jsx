@@ -1,8 +1,9 @@
+import style from "@/components/home/home.module.css";
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <>
+    <div id={style.home}>
       <h1>Name</h1>
       <p>Position</p>
       <p>
@@ -22,6 +23,6 @@ export default function Home() {
           <Link href="/contact">Contact</Link>
         </li>
       </ul>
-    </>
+    </div>
   );
 }

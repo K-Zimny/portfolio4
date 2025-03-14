@@ -6,10 +6,12 @@
   gap: var(--space-md);
 
   nav {
-    flex-grow: 1;
+    /* flex-grow: 1; */
+    width: var(--main-nav-nav-width);
   }
 
   main {
-    flex-grow: 8;
+    /* flex-grow: 8; */
+    width: var(--main-nav-main-width);
   }
 }

@@ -8,49 +8,56 @@ const fakeWorks = [
     href: "/works/work",
     src: "/placeholder-image.jpg",
     alt: "Fake Alt",
-    description: "My Fake Description",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati necessitatibus aliquam ducimus eligendi explicabo! Aspernatur illo possimus magni minus perspiciatis ullam officiis consequuntur error. Quas blanditiis officia voluptas ipsa unde!",
   },
   {
     title: "My Fake Title 1",
     href: "/works/work",
     src: "/placeholder-image.jpg",
     alt: "Fake Alt",
-    description: "My Fake Description",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati necessitatibus aliquam ducimus eligendi explicabo! Aspernatur illo possimus magni minus perspiciatis ullam officiis consequuntur error. Quas blanditiis officia voluptas ipsa unde!",
   },
   {
     title: "My Fake Title 2",
     href: "/works/work",
     src: "/placeholder-image.jpg",
     alt: "Fake Alt",
-    description: "My Fake Description",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati necessitatibus aliquam ducimus eligendi explicabo! Aspernatur illo possimus magni minus perspiciatis ullam officiis consequuntur error. Quas blanditiis officia voluptas ipsa unde!",
   },
   {
     title: "My Fake Title 3",
     href: "/works/work",
     src: "/placeholder-image.jpg",
     alt: "Fake Alt",
-    description: "My Fake Description",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati necessitatibus aliquam ducimus eligendi explicabo! Aspernatur illo possimus magni minus perspiciatis ullam officiis consequuntur error. Quas blanditiis officia voluptas ipsa unde!",
   },
   {
     title: "My Fake Title 4",
     href: "/works/work",
     src: "/placeholder-image.jpg",
     alt: "Fake Alt",
-    description: "My Fake Description",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati necessitatibus aliquam ducimus eligendi explicabo! Aspernatur illo possimus magni minus perspiciatis ullam officiis consequuntur error. Quas blanditiis officia voluptas ipsa unde!",
   },
   {
     title: "My Fake Title 5",
     href: "/works/work",
     src: "/placeholder-image.jpg",
     alt: "Fake Alt",
-    description: "My Fake Description",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati necessitatibus aliquam ducimus eligendi explicabo! Aspernatur illo possimus magni minus perspiciatis ullam officiis consequuntur error. Quas blanditiis officia voluptas ipsa unde!",
   },
   {
     title: "My Fake Title 6",
     href: "/works/work",
     src: "/placeholder-image.jpg",
     alt: "Fake Alt",
-    description: "My Fake Description",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati necessitatibus aliquam ducimus eligendi explicabo! Aspernatur illo possimus magni minus perspiciatis ullam officiis consequuntur error. Quas blanditiis officia voluptas ipsa unde!",
   },
 ];
 
@@ -67,18 +74,25 @@ const Work = ({ title, href, src, alt, description }) => {
 export default function Works() {
   return (
     <div id={style.works}>
-      {fakeWorks.map((work) => {
-        return (
-          <Work
-            key={work.title}
-            title={work.title}
-            href={work.href}
-            src={work.src}
-            alt={work.alt}
-            description={work.description}
-          ></Work>
-        );
-      })}
+      <header>
+        <h1>Works</h1>
+        <p>Lorum ipsum</p>
+      </header>
+
+      <section id={style["works-grid"]}>
+        {fakeWorks.map((work) => {
+          return (
+            <Work
+              key={work.title}
+              title={work.title}
+              href={work.href}
+              src={work.src}
+              alt={work.alt}
+              description={work.description}
+            ></Work>
+          );
+        })}
+      </section>
     </div>
   );
 }

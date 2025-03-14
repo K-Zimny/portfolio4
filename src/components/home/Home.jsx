@@ -4,7 +4,10 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div id={style.home}>
-      <h1>Name</h1>
+      <header>
+        <h1>Name</h1>
+      </header>
+
       <p>Position</p>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit

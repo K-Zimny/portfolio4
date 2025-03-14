@@ -1,10 +1,5 @@
+import Resume from "@/components/resume/Resume";
+
 export default function resume() {
-  return (
-    <>
-      <h1>Resume</h1>
-      <div>
-        <div>Resume</div>
-      </div>
-    </>
-  );
+  return <Resume></Resume>;
 }

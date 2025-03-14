@@ -10,6 +10,7 @@
 
   --main-nav-flex-direction: row;
   --main-nav-main-width: 85%;
+  --main-nav-main-gap: var(--space-md);
   --main-nav-nav-width: 15%;
 
   --works-grid-cols: repeat(3, 1fr);
@@ -28,6 +29,7 @@
   :root {
     --main-nav-flex-direction: column;
     --main-nav-main-width: 100%;
+    --main-nav-main-gap: 0px;
     --main-nav-nav-width: 100%;
 
     --works-grid-cols: repeat(1, 1fr);
@@ -56,8 +58,19 @@ body {
   height: 100dvh;
   display: flex;
   flex-direction: column;
+  padding: var(--space-md);
 
   * {
     outline: 1px solid rgb(186, 186, 186);
   }
+}
+
+/* Headings */
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
 }

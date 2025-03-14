@@ -3,15 +3,14 @@
   flex-grow: 1;
   flex-direction: var(--main-nav-flex-direction);
   margin-top: var(--space-md);
-  gap: var(--space-md);
 
   nav {
-    /* flex-grow: 1; */
     width: var(--main-nav-nav-width);
   }
 
   main {
-    /* flex-grow: 8; */
     width: var(--main-nav-main-width);
+    height: 100%;
+    padding-left: var(--main-nav-main-gap);
   }
 }

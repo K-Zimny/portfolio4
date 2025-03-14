@@ -6,7 +6,8 @@ const fakework = {
   title: "My Fake Work",
   src: "/placeholder-image.jpg",
   alt: "My fake alt",
-  description: "My fake description",
+  description:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati necessitatibus aliquam ducimus eligendi explicabo! Aspernatur illo possimus magni minus perspiciatis ullam officiis consequuntur error. Quas blanditiis officia voluptas ipsa unde!",
   href: "/",
   repo: "/",
 };
@@ -15,7 +16,10 @@ export default function Work() {
   return (
     <div id={style["work-container"]}>
       <div id={style.work}>
-        <h1>{fakework.title}</h1>
+        <header>
+          <h1>{fakework.title}</h1>
+        </header>
+
         <Image
           src={fakework.src}
           alt={fakework.alt}

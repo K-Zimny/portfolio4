@@ -1,10 +1,14 @@
-#works {
+#works > header {
+  margin-bottom: var(--space-lg);
+}
+
+#works > header > h1 {
+  margin-bottom: var(--space-md);
+}
+
+#works-grid {
   display: grid;
   grid-template-columns: var(--works-grid-cols);
   gap: var(--space-lg);
   margin-block: var(--space-lg);
-}
-
-.work {
-  aspect-ratio: 1/1;
 }

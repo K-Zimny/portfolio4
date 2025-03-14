@@ -2,4 +2,5 @@
   display: grid;
   grid-template-columns: var(--works-grid-cols);
   gap: var(--space-lg);
+  margin-block: var(--space-lg);
 }

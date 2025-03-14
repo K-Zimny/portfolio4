@@ -5,7 +5,7 @@ export default function works() {
     <>
       <h1>Works</h1>
       <p>Lorum ipsum</p>
-      <section className="my-4">
+      <section>
         <Works></Works>
       </section>
     </>

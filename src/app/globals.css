@@ -4,23 +4,18 @@
   --background: #ffffff;
   --foreground: #171717;
 
-  --space-sm: 0.5rem;
-  --space-md: 1rem;
-  --space-lg: 2rem;
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: 3rem;
 
   --main-nav-flex-direction: row;
-  --main-nav-main-width: 85%;
-  --main-nav-main-gap: var(--space-md);
-  --main-nav-nav-width: 15%;
+  --main-nav-gap: var(--space-md);
 
   --works-grid-cols: repeat(3, 1fr);
 }
 
 @media (max-width: 1200px) {
   :root {
-    --main-nav-main-width: 75%;
-    --main-nav-nav-width: 25%;
-
     --works-grid-cols: repeat(2, 1fr);
   }
 }
@@ -28,9 +23,7 @@
 @media (max-width: 768px) {
   :root {
     --main-nav-flex-direction: column;
-    --main-nav-main-width: 100%;
-    --main-nav-main-gap: 0px;
-    --main-nav-nav-width: 100%;
+    --main-nav-gap: 0px;
 
     --works-grid-cols: repeat(1, 1fr);
   }
@@ -61,7 +54,7 @@ body {
   padding: var(--space-md);
 
   * {
-    /* outline: 1px solid rgb(186, 186, 186); */
+    outline: 1px solid rgb(233, 233, 233);
   }
 }
 
@@ -69,10 +62,10 @@ body {
 
 header {
   margin-bottom: var(--space-lg);
-}
 
-#banner {
-  margin-bottom: 0;
+  h1 + p {
+    margin-top: var(--space-sm);
+  }
 }
 
 h1 {
@@ -87,4 +80,12 @@ h2 {
 
 p {
   margin-bottom: var(--space-sm);
+}
+
+/* Lists */
+
+ul li {
+  margin-block: var(--space-md);
+  margin-left: var(--space-sm);
+  list-style: disc;
 }

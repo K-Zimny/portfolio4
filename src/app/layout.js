@@ -27,17 +27,6 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <header id="banner">
-          <Link href="/" aria-label="Kenneth Zimny Home Page">
-            <Image
-              src="/placeholder-image"
-              alt="Placeholder Image"
-              width={200}
-              height={50}
-            ></Image>
-          </Link>
-        </header>
-
         <MainNav>{children}</MainNav>
 
         <footer>FOOTER</footer>

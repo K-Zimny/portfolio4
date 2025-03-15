@@ -6,9 +6,9 @@ export default function Home() {
     <div id={style.home}>
       <header>
         <h1>Name</h1>
+        <p>Position</p>
       </header>
 
-      <p>Position</p>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
         cumque eaque cum suscipit adipisci, ipsum totam eveniet debitis

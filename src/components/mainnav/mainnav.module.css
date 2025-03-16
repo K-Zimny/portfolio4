@@ -4,17 +4,17 @@
   flex-direction: var(--main-nav-flex-direction);
   gap: var(--main-nav-gap);
 
-  nav {
+  & nav {
     min-width: 200px;
   }
 
-  main {
+  & main {
     width: 100%;
   }
 }
 
 #banner-nav-container {
   height: min-content;
-  position: sticky;
+  position: var(--main-nav-position);
   top: var(--space-md);
 }

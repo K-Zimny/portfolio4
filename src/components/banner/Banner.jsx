@@ -7,8 +7,8 @@ export default function Banner() {
     <header id={style.banner}>
       <Link href="/" aria-label="Kenneth Zimny Home Page">
         <Image
-          src="/placeholder-image.jpg"
-          alt="Placeholder Image"
+          src="/kz-logo.svg"
+          alt="Kenneth Zimny Site Logo"
           width={100}
           height={50}
         ></Image>

@@ -1,9 +1,9 @@
+import PageHeader from "../pageheader/PageHeader";
+
 export default function About() {
   return (
     <>
-      <header>
-        <h1>About</h1>
-      </header>
+      <PageHeader title="About" />
 
       <p>
         Welcome to our page! Here, we are driven by a passion for delivering

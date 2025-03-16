@@ -1,9 +1,9 @@
+import PageHeader from "../pageheader/PageHeader";
+
 export default function Resume() {
   return (
     <>
-      <header>
-        <h1>Resume</h1>
-      </header>
+      <PageHeader title="Resume" />
 
       <section className="resume-section">
         <h2>John Doe</h2>

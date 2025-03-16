@@ -1,30 +1,34 @@
 import style from "@/components/home/home.module.css";
 import Link from "next/link";
+import PageHeader from "../pageheader/PageHeader";
+
+const { name, position, intro, siteLinks } = {
+  name: "Kenneth Zimny",
+  position: "Frontend Developer",
+  intro:
+    "A versatile developer specializing in frontend, full-stack, and embedded systems, I have successfully developed and deployed diverse projects, showcasing adaptability and cross-disciplinary expertise. With experience in launching high-security web applications for leading enterprises, I take ownership of high-impact features, enhancing user experience and meeting business objectives. Additionally, I hold CompTIA Security+ and AWS Cloud Practitioner certifications, and have thrived in various roles, including as a sole developer, business owner, and team member.",
+  siteLinks: [
+    { href: "/works", title: "Works" },
+    { href: "/skills", title: "Skills" },
+    { href: "/contact", title: "Contact" },
+  ],
+};
 
 export default function Home() {
   return (
     <div id={style.home}>
-      <header>
-        <h1>Name</h1>
-        <p>Position</p>
-      </header>
+      <PageHeader title={name} subtitle={position} />
 
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-        cumque eaque cum suscipit adipisci, ipsum totam eveniet debitis
-        voluptate fugit iusto enim, officiis sunt perspiciatis dicta est
-        eligendi ratione molestias?
-      </p>
+      <p>{intro}</p>
+
       <ul>
-        <li>
-          <Link href="/works">Works</Link>
-        </li>
-        <li>
-          <Link href="/skills">Skills</Link>
-        </li>
-        <li>
-          <Link href="/contact">Contact</Link>
-        </li>
+        {siteLinks.map((link) => {
+          return (
+            <li key={link.title}>
+              <Link href={link.href}>{link.title}</Link>
+            </li>
+          );
+        })}
       </ul>
     </div>
   );

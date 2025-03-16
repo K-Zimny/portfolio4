@@ -1,3 +1,4 @@
+import PageHeader from "@/components/pageheader/PageHeader";
 import style from "@/components/works/work/work.module.css";
 import Image from "next/image";
 import Link from "next/link";
@@ -16,9 +17,7 @@ export default function Work() {
   return (
     <div id={style["work-container"]}>
       <div id={style.work}>
-        <header>
-          <h1>{fakework.title}</h1>
-        </header>
+        <PageHeader title={fakework.title} />
 
         <Image
           src={fakework.src}

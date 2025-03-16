@@ -1,9 +1,9 @@
+import PageHeader from "../pageheader/PageHeader";
+
 export default function Skills() {
   return (
     <>
-      <header>
-        <h1>Skills</h1>
-      </header>
+      <PageHeader title="Skills" />
 
       <ul>
         <li>

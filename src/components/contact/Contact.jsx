@@ -1,12 +1,11 @@
 import style from "@/components/contact/contact.module.css";
 import Link from "next/link";
+import PageHeader from "../pageheader/PageHeader";
 
 export default function Contact() {
   return (
     <div id={style.contact}>
-      <header>
-        <h1>Contact</h1>
-      </header>
+      <PageHeader title="Contact" />
 
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi

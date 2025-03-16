@@ -1,6 +1,7 @@
 import Image from "next/image";
 import style from "@/components/works/works.module.css";
 import Link from "next/link";
+import PageHeader from "../pageheader/PageHeader";
 
 const fakeWorks = [
   {
@@ -74,10 +75,7 @@ const Work = ({ title, href, src, alt, description }) => {
 export default function Works() {
   return (
     <div id={style.works}>
-      <header>
-        <h1>Works</h1>
-        <p>Lorum ipsum</p>
-      </header>
+      <PageHeader title="Works" subtitle="My recents projects" />
 
       <section id={style["works-grid"]}>
         {fakeWorks.map((work) => {

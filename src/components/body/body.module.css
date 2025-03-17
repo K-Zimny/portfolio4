@@ -1,4 +1,4 @@
-#main-nav-container {
+#body-container {
   display: flex;
   flex-grow: 1;
   flex-direction: var(--main-nav-flex-direction);
@@ -14,7 +14,15 @@
 }
 
 #banner-nav-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+
   height: min-content;
   position: var(--main-nav-position);
   top: var(--space-md);
+
+  & nav {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
 }

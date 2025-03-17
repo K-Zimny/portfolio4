@@ -1,5 +1,11 @@
+import PageHeader from "@/components/pageheader/PageHeader";
 import Works from "@/components/works/Works";
 
 export default function works() {
-  return <Works></Works>;
+  return (
+    <>
+      <PageHeader title="Works" subtitle="My recents projects" />
+      <Works />
+    </>
+  );
 }

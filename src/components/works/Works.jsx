@@ -75,8 +75,6 @@ const Work = ({ title, href, src, alt, description }) => {
 export default function Works() {
   return (
     <div id={style.works}>
-      <PageHeader title="Works" subtitle="My recents projects" />
-
       <section id={style["works-grid"]}>
         {fakeWorks.map((work) => {
           return (

@@ -1,8 +1,8 @@
 #works-grid {
   display: grid;
-  grid-template-columns: var(--works-grid-cols);
-  gap: var(--space-lg);
-  margin-block: var(--space-lg);
+  grid-template-columns: var(--works_grid-cols);
+  gap: var(--space_lg);
+  margin-block: var(--space_lg);
 }
 
 #works-grid img {

@@ -4,50 +4,50 @@
   --background: #ffffff;
   --foreground: #171717;
 
-  --base-font: 24px;
+  --base_font: 24px;
 
-  --space-sm: 1rem;
-  --space-md: 2rem;
-  --space-lg: 3rem;
+  --space_sm: 1rem;
+  --space_md: 2rem;
+  --space_lg: 3rem;
 
-  --main-nav-flex-direction: row;
-  --main-nav-gap: var(--space-md);
-  --main-nav-position: sticky;
-  --works-grid-cols: repeat(3, 1fr);
+  --body_flex-direction: row;
+  --body_gap: var(--space_md);
+  --body_position: sticky;
 
-  --nav-toggle-display: none;
+  --nav_toggle-display: none;
+  --nav_nav-open-display: block;
+  --nav_nav-closed-display: block;
 
-  --nav-nav-open-display: block;
-  --nav-nav-closed-display: block;
+  --works_grid-cols: repeat(3, 1fr);
 }
 
 @media (max-width: 1200px) {
   :root {
-    --base-font: 20px;
+    --base_font: 20px;
 
-    --works-grid-cols: repeat(2, 1fr);
-    --main-nav-position: sticky;
+    --body_position: sticky;
 
-    --nav-toggle-display: none;
+    --nav_toggle-display: none;
+    --nav_nav-open-display: block;
+    --nav_nav-closed-display: block;
 
-    --nav-nav-open-display: block;
-    --nav-nav-closed-display: block;
+    --works_grid-cols: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 768px) {
   :root {
-    --base-font: 18px;
+    --base_font: 18px;
 
-    --main-nav-flex-direction: column;
-    --main-nav-gap: 0px;
-    --main-nav-position: block;
+    --body_flex-direction: column;
+    --body_gap: 0px;
+    --body_position: block;
 
-    --nav-toggle-display: block;
-    --nav-nav-open-display: block;
-    --nav-nav-closed-display: none;
+    --nav_toggle-display: block;
+    --nav_nav-open-display: block;
+    --nav_nav-closed-display: none;
 
-    --works-grid-cols: repeat(1, 1fr);
+    --works_grid-cols: repeat(1, 1fr);
   }
 }
 
@@ -69,11 +69,11 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-  font-size: var(--base-font);
+  font-size: var(--base_font);
   height: 100dvh;
   display: flex;
   flex-direction: column;
-  padding: var(--space-md);
+  padding: var(--space_md);
 
   * {
     outline: 1px solid rgb(233, 233, 233);
@@ -83,10 +83,10 @@ body {
 /* Headings */
 
 header {
-  margin-bottom: var(--space-lg);
+  margin-bottom: var(--space_lg);
 
   h1 + p {
-    margin-top: var(--space-sm);
+    margin-top: var(--space_sm);
   }
 }
 
@@ -101,13 +101,13 @@ h2 {
 /* Text */
 
 p {
-  margin-bottom: var(--space-sm);
+  margin-bottom: var(--space_sm);
 }
 
 /* Lists */
 
 ul li {
-  margin-block: var(--space-md);
-  margin-left: var(--space-sm);
+  margin-block: var(--space_md);
+  margin-left: var(--space_sm);
   list-style: disc;
 }

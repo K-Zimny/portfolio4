@@ -1,8 +1,8 @@
 #body-container {
   display: flex;
   flex-grow: 1;
-  flex-direction: var(--main-nav-flex-direction);
-  gap: var(--main-nav-gap);
+  flex-direction: var(--body_flex-direction);
+  gap: var(--body_gap);
 
   & nav {
     min-width: 200px;
@@ -18,8 +18,8 @@
   grid-template-columns: 3fr 1fr;
 
   height: min-content;
-  position: var(--main-nav-position);
-  top: var(--space-md);
+  position: var(--body_position);
+  top: var(--space_md);
 
   & nav {
     grid-column-start: 1;

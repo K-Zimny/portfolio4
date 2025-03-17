@@ -1,11 +1,11 @@
 button.nav-toggle {
-  display: var(--nav-toggle-display);
+  display: var(--nav_toggle-display);
 }
 
 nav.nav-open {
-  display: var(--nav-nav-open-display);
+  display: var(--nav_nav-open-display);
 }
 
 nav.nav-closed {
-  display: var(--nav-nav-closed-display);
+  display: var(--nav_nav-closed-display);
 }

@@ -4,16 +4,39 @@ import { useState } from "react";
 import style from "@/components/body/navigation/navigation.module.css";
 import Link from "next/link";
 
+const siteLinks = [
+  {
+    title: "Works",
+    href: "/works",
+  },
+  {
+    title: "Skills",
+    href: "/skills",
+  },
+  {
+    title: "About",
+    href: "/about",
+  },
+  {
+    title: "Resume",
+    href: "/resume",
+  },
+  {
+    title: "Contact",
+    href: "/contact",
+  },
+];
+
 export default function Navigation() {
   const [navIsOpen, setNavIsOpen] = useState(false);
 
-  function handleNavOpen() {
+  function handleNavToggle() {
     setNavIsOpen((prev) => !prev);
   }
 
   return (
     <>
-      <button className={style["nav-toggle"]} onClick={handleNavOpen}>
+      <button className={style["nav-toggle"]} onClick={handleNavToggle}>
         {navIsOpen ? "X" : "="}
       </button>
       <nav
@@ -21,26 +44,15 @@ export default function Navigation() {
         className={navIsOpen ? style["nav-open"] : style["nav-closed"]}
       >
         <ul>
-          <li>
-            <Link href="/works">Works</Link>
-            <ul>
-              <li>
-                <Link href="/works/work">Work</Link>
+          {siteLinks.map((link) => {
+            return (
+              <li key={link.title}>
+                <Link onClick={handleNavToggle} href={link.href}>
+                  {link.title}
+                </Link>
               </li>
-            </ul>
-          </li>
-          <li>
-            <Link href="/skills">Skills</Link>
-          </li>
-          <li>
-            <Link href="/about">About</Link>
-          </li>
-          <li>
-            <Link href="/resume">Resume</Link>
-          </li>
-          <li>
-            <Link href="/contact">Contact</Link>
-          </li>
+            );
+          })}
         </ul>
       </nav>
     </>

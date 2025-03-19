@@ -12,7 +12,7 @@
 
   --body_flex-direction: row;
   --body_gap: var(--space_md);
-  --body_position: sticky;
+  --body_banner-nav-position: sticky;
 
   --nav_toggle-display: none;
   --nav_nav-open-display: block;
@@ -25,7 +25,11 @@
   :root {
     --base_font: 20px;
 
-    --body_position: sticky;
+    --space_sm: 0.85rem;
+    --space_md: 1.5rem;
+    --space_lg: 2.5rem;
+
+    --body_banner-nav-position: sticky;
 
     --nav_toggle-display: none;
     --nav_nav-open-display: block;
@@ -39,9 +43,13 @@
   :root {
     --base_font: 18px;
 
+    --space_sm: 0.75rem;
+    --space_md: 1.25rem;
+    --space_lg: 2rem;
+
     --body_flex-direction: column;
     --body_gap: 0px;
-    --body_position: block;
+    --body_banner-nav-position: block;
 
     --nav_toggle-display: block;
     --nav_nav-open-display: block;
@@ -54,8 +62,8 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-karla);
+  --font-mono: var(--font-karla);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -68,7 +76,7 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-karla);
   font-size: var(--base_font);
   height: 100dvh;
   display: flex;
@@ -76,14 +84,14 @@ body {
   padding: var(--space_md);
 
   * {
-    outline: 1px solid rgb(233, 233, 233);
+    /* outline: 1px solid rgb(233, 233, 233); */
   }
 }
 
 /* Headings */
 
 header {
-  margin-bottom: var(--space_lg);
+  margin-bottom: var(--space_md);
 
   h1 + p {
     margin-top: var(--space_sm);

@@ -51,7 +51,7 @@
     --body_gap: 0px;
     --body_banner-nav-position: block;
 
-    --nav_toggle-display: block;
+    --nav_toggle-display: flex;
     --nav_nav-open-display: block;
     --nav_nav-closed-display: none;
 

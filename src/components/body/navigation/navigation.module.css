@@ -11,6 +11,18 @@ nav#nav {
 
 button.nav-toggle {
   display: var(--nav_toggle-display);
+  justify-content: end;
+
+  &.nav-open {
+    line-height: 55px;
+    font-size: 3.5rem;
+    scale: 1 0.8;
+  }
+  &.nav-closed {
+    line-height: 40px;
+    font-size: 5rem;
+    font-weight: 300;
+  }
 }
 
 nav.nav-open {

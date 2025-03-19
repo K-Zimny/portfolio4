@@ -36,7 +36,12 @@ export default function Navigation() {
 
   return (
     <>
-      <button className={style["nav-toggle"]} onClick={handleNavToggle}>
+      <button
+        className={`${style["nav-toggle"]} ${
+          style[navIsOpen ? "nav-open" : "nav-closed"]
+        }`}
+        onClick={handleNavToggle}
+      >
         {navIsOpen ? "X" : "="}
       </button>
       <nav

@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 import style from "@/components/body/navigation/navigation.module.css";
 import Link from "next/link";
 
@@ -29,6 +30,11 @@ const siteLinks = [
 
 export default function Navigation() {
   const [navIsOpen, setNavIsOpen] = useState(false);
+  const pathName = usePathname();
+
+  useEffect(() => {
+    setNavIsOpen(false);
+  }, [pathName]);
 
   function handleNavToggle() {
     setNavIsOpen((prev) => !prev);
@@ -52,9 +58,7 @@ export default function Navigation() {
           {siteLinks.map((link) => {
             return (
               <li key={link.title}>
-                <Link onClick={handleNavToggle} href={link.href}>
-                  {link.title}
-                </Link>
+                <Link href={link.href}>{link.title}</Link>
               </li>
             );
           })}

@@ -1,8 +1,10 @@
+import style from "@/components/pageheader/pageheader.module.css";
+
 export default function PageHeader({ title, subtitle }) {
   return (
     <header>
-      <h1>{title}</h1>
-      {subtitle && <p>{subtitle}</p>}
+      <h1 className={style.title}>{title}</h1>
+      {subtitle && <p className={style.subtitle}>{subtitle}</p>}
     </header>
   );
 }

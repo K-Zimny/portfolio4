@@ -30,7 +30,8 @@ const siteLinks = [
 
 export default function Navigation() {
   const [navIsOpen, setNavIsOpen] = useState(false);
-  const pathName = usePathname();
+  const pathName = usePathname(); // Path of current page
+  const basePathName = pathName.match(/^\/[^/]+/); // Only first part of path
 
   useEffect(() => {
     setNavIsOpen(false);
@@ -58,7 +59,12 @@ export default function Navigation() {
           {siteLinks.map((link) => {
             return (
               <li key={link.title}>
-                <Link href={link.href}>{link.title}</Link>
+                <Link
+                  className={link.href == basePathName ? style.active : ""}
+                  href={link.href}
+                >
+                  {link.title}
+                </Link>
               </li>
             );
           })}

@@ -7,6 +7,10 @@ nav#nav {
       margin-top: 0;
     }
   }
+
+  & a.active {
+    text-decoration: underline;
+  }
 }
 
 button.nav-toggle {

@@ -19,7 +19,7 @@
 
   height: min-content;
   position: var(--body_banner-nav-position);
-  top: var(--space_md);
+  top: var(--space_lg);
 
   & nav {
     grid-column-start: 1;

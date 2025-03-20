@@ -4,7 +4,13 @@
   --background: #ffffff;
   --foreground: #171717;
 
-  --base_font: 24px;
+  --base_font: 22px;
+  --base_page-header-font: 2.75rem;
+  --base_page-header-line-height: 28px;
+  --base_header-font: 2rem;
+  --base_page-subheader-font: 1.75rem;
+  --base_nav-font: 1.5rem;
+  --base_copy-font: 1rem;
 
   --space_sm: 1rem;
   --space_md: 2rem;
@@ -24,6 +30,12 @@
 @media (max-width: 1200px) {
   :root {
     --base_font: 20px;
+    --base_page-header-font: 2.5rem;
+    --base_page-header-line-height: 28px;
+    --base_header-font: 2rem;
+    --base_page-subheader-font: 1.75rem;
+    --base_nav-font: 1.5rem;
+    --base_copy-font: 1rem;
 
     --space_sm: 0.85rem;
     --space_md: 1.5rem;
@@ -42,6 +54,12 @@
 @media (max-width: 768px) {
   :root {
     --base_font: 18px;
+    --base_page-header-font: 2.5rem;
+    --base_page-header-line-height: normal;
+    --base_header-font: 2rem;
+    --base_page-subheader-font: 1.75rem;
+    --base_nav-font: 1.25rem;
+    --base_copy-font: 1rem;
 
     --space_sm: 0.75rem;
     --space_md: 1.25rem;
@@ -81,7 +99,7 @@ body {
   height: 100dvh;
   display: flex;
   flex-direction: column;
-  padding: var(--space_md);
+  padding: var(--space_lg);
 
   * {
     /* outline: 1px solid rgb(233, 233, 233); */
@@ -99,16 +117,23 @@ header {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: var(--base_page-header-font);
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: var(--base_header-font);
+}
+
+/* nav */
+
+nav li {
+  font-size: var(--base_nav-font);
 }
 
 /* Text */
 
 p {
+  /* font-size: var(--base_copy-font); */
   margin-bottom: var(--space_sm);
 }
 

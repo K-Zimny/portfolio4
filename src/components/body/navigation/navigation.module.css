@@ -18,13 +18,13 @@ button.nav-toggle {
   justify-content: end;
 
   &.nav-open {
-    line-height: 55px;
+    line-height: 15px;
     font-size: 3.5rem;
     scale: 1 0.8;
     margin-right: 12px;
   }
   &.nav-closed {
-    line-height: 40px;
+    line-height: 5px;
     font-size: 5rem;
     font-weight: 300;
     margin-right: 10px;

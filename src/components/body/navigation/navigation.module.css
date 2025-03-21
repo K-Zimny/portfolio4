@@ -23,6 +23,7 @@ button.nav-toggle {
     scale: 1 0.8;
     margin-right: 12px;
   }
+
   &.nav-closed {
     line-height: 5px;
     font-size: 5rem;

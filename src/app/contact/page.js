@@ -1,5 +1,6 @@
 import Link from "next/link";
 import PageHeader from "@/components/pageheader/PageHeader";
+import contacts from "@/data/contacts.json";
 
 export default function contact() {
   return (
@@ -14,22 +15,13 @@ export default function contact() {
       </p>
 
       <ul>
-        <li>
-          <Link href="https://github.com/K-Zimny">GitHub</Link>
-        </li>
-        <li>
-          <Link href="https://www.linkedin.com/in/kenneth-zimny/">
-            Linkedin
-          </Link>
-        </li>
-        <li>
-          <Link href="mailto:kenneth.zimny@gmail.com">
-            Kenneth.zimny@gmail.com
-          </Link>
-        </li>
-        <li>
-          <Link href="tel:6302546683">(630) 254-6683</Link>
-        </li>
+        {contacts.map((contact) => {
+          return (
+            <li key={contact.name}>
+              <Link href={contact.href}>{contact.name}</Link>
+            </li>
+          );
+        })}
       </ul>
     </div>
   );

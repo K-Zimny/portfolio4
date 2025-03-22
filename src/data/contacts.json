@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Github",
+    "href": "https://github.com/K-Zimny",
+    "src": "/github.svg",
+    "alt": "Placeholder Image"
+  },
+  {
+    "name": "Linkedin",
+    "href": "https://www.linkedin.com/in/kenneth-zimny/",
+    "src": "/linkedin.svg",
+    "alt": "Placeholder Image"
+  },
+  {
+    "name": "kenneth.zimny@gmail.com",
+    "href": "mailto:kenneth.zimny@gmail.com",
+    "src": "/email.svg",
+    "alt": "Placeholder Image"
+  },
+  {
+    "name": "(630) 254-6683",
+    "href": "tel:6302546683",
+    "src": "/phone.svg",
+    "alt": "Placeholder Image"
+  }
+]

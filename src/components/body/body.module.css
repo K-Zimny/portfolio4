@@ -9,6 +9,8 @@
   }
 
   & main {
+    z-index: 1;
+    background-color: var(--background);
     width: 100%;
   }
 }

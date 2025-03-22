@@ -1,0 +1,6 @@
+footer#footer {
+  display: flex;
+  gap: var(--body_gap);
+  position: var(--footer_position);
+  bottom: var(--space_lg);
+}

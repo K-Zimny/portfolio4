@@ -1,26 +1,26 @@
-import style from "@/components/body/contactbar/contactbar.module.css";
+import style from "@/components/footer/contactbar/contactbar.module.css";
 import Link from "next/link";
 import Image from "next/image";
 
 const contacts = [
   {
     href: "https://github.com/K-Zimny",
-    src: "/placeholder-image.jpg",
+    src: "/github.svg",
     alt: "Placeholder Image",
   },
   {
     href: "https://www.linkedin.com/in/kenneth-zimny/",
-    src: "/placeholder-image.jpg",
+    src: "/linkedin.svg",
     alt: "Placeholder Image",
   },
   {
     href: "mailto:kenneth.zimny@gmail.com",
-    src: "/placeholder-image.jpg",
+    src: "/email.svg",
     alt: "Placeholder Image",
   },
   {
     href: "tel:6302546683",
-    src: "/placeholder-image.jpg",
+    src: "/phone.svg",
     alt: "Placeholder Image",
   },
 ];
@@ -35,8 +35,8 @@ export default function ContactBar() {
               <Link href={contact.href} aria-label="link">
                 <Image
                   src={contact.src}
-                  width={20}
-                  height={20}
+                  width={25}
+                  height={25}
                   alt={contact.alt}
                   aria-label="link"
                 />

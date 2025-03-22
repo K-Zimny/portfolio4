@@ -20,6 +20,8 @@
   --body_gap: var(--space_md);
   --body_banner-nav-position: sticky;
 
+  --footer_position: sticky;
+
   --nav_toggle-display: none;
   --nav_nav-open-display: block;
   --nav_nav-closed-display: block;
@@ -42,6 +44,8 @@
     --space_lg: 2.5rem;
 
     --body_banner-nav-position: sticky;
+
+    --footer_position: sticky;
 
     --nav_toggle-display: none;
     --nav_nav-open-display: block;
@@ -67,7 +71,9 @@
 
     --body_flex-direction: column;
     --body_gap: 0px;
-    --body_banner-nav-position: block;
+    --body_banner-nav-position: static;
+
+    --footer_position: static;
 
     --nav_toggle-display: flex;
     --nav_nav-open-display: block;

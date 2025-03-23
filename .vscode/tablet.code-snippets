@@ -1,0 +1,12 @@
+{
+	"Media Query - Tablet": {
+		"scope": "css,scss,less",
+		"prefix": "tablet",
+		"body": [
+			"@media (min-width: 768px) {",
+			"\t$1",
+			"}"
+		],
+		"description": "Media query for tablet and larger screens (min-width: 768px)"
+	}
+}

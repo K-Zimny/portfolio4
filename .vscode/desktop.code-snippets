@@ -1,0 +1,12 @@
+{
+	"Media Query - Desktop": {
+		"scope": "css,scss,less",
+		"prefix": "desktop",
+		"body": [
+			"@media (min-width: 1280px) {",
+			"\t$1",
+			"}"
+		],
+		"description": "Media query for desktop and larger screens (min-width: 1280px)"
+	}
+}

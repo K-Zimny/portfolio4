@@ -9,8 +9,7 @@ export default function Banner() {
         <Image
           src="/kz-logo.svg"
           alt="Kenneth Zimny Site Logo"
-          width={100}
-          height={50}
+          fill={true}
         ></Image>
       </Link>
     </header>

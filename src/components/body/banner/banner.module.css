@@ -1,4 +1,16 @@
 #banner {
   margin-bottom: var(--space_md);
   margin-left: 0.15rem;
+
+  & a {
+    display: inline-block;
+    position: relative;
+    height: var(--logo_size);
+    width: 100%;
+  }
+
+  & img {
+    object-fit: contain;
+    object-position: left;
+  }
 }

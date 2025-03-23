@@ -21,16 +21,18 @@
   --body_gap: var(--space_md);
   --body_banner-nav-position: sticky;
 
-  --footer_position: sticky;
+  --logo_size: 45px;
 
   --nav_toggle-display: none;
   --nav_nav-open-display: block;
   --nav_nav-closed-display: block;
 
+  --footer_position: sticky;
+
   --works_grid-cols: repeat(3, 1fr);
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1280px) {
   :root {
     --base_font: 20px;
     --base_page-header-font: 2.5rem;
@@ -46,11 +48,13 @@
 
     --body_banner-nav-position: sticky;
 
-    --footer_position: sticky;
+    --logo_size: 35px;
 
     --nav_toggle-display: none;
     --nav_nav-open-display: block;
     --nav_nav-closed-display: block;
+
+    --footer_position: sticky;
 
     --works_grid-cols: repeat(2, 1fr);
   }
@@ -74,11 +78,13 @@
     --body_gap: 0px;
     --body_banner-nav-position: static;
 
-    --footer_position: static;
+    --logo_size: 35px;
 
     --nav_toggle-display: flex;
     --nav_nav-open-display: block;
     --nav_nav-closed-display: none;
+
+    --footer_position: static;
 
     --works_grid-cols: repeat(1, 1fr);
   }

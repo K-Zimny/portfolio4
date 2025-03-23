@@ -5,34 +5,35 @@
   --foreground: #171717;
   --color_gray: #676767;
 
-  --base_font: 22px;
-  --base_page-header-font: 2.75rem;
-  --base_page-header-line-height: 28px;
+  --base_font: 18px;
+  --base_page-header-font: 2.5rem;
+  --base_page-header-line-height: normal;
   --base_header-font: 2rem;
   --base_page-subheader-font: 1.5rem;
-  --base_nav-font: 1.5rem;
+  --base_nav-font: 1.25rem;
   --base_copy-font: 1rem;
 
-  --space_sm: 1rem;
-  --space_md: 2rem;
-  --space_lg: 3rem;
+  --space_sm: 0.75rem;
+  --space_md: 1.25rem;
+  --space_lg: 2rem;
 
-  --body_flex-direction: row;
-  --body_gap: var(--space_md);
-  --body_banner-nav-position: sticky;
+  --body_flex-direction: column;
+  --body_gap: 0px;
+  --body_banner-nav-position: static;
 
-  --logo_size: 45px;
+  --logo_size: 35px;
 
-  --nav_toggle-display: none;
+  --nav_toggle-display: flex;
   --nav_nav-open-display: block;
-  --nav_nav-closed-display: block;
+  --nav_nav-closed-display: none;
 
-  --footer_position: sticky;
+  --footer_position: static;
 
-  --works_grid-cols: repeat(3, 1fr);
+  --works_grid-cols: repeat(1, 1fr);
 }
 
-@media (max-width: 1280px) {
+/* Tablet breakpoint */
+@media (min-width: 768px) {
   :root {
     --base_font: 20px;
     --base_page-header-font: 2.5rem;
@@ -46,6 +47,8 @@
     --space_md: 1.5rem;
     --space_lg: 2.5rem;
 
+    --body_flex-direction: row;
+    --body_gap: var(--space_md);
     --body_banner-nav-position: sticky;
 
     --logo_size: 35px;
@@ -60,33 +63,24 @@
   }
 }
 
-@media (max-width: 768px) {
+/* Desktop breakpoint */
+@media (min-width: 1280px) {
   :root {
-    --base_font: 18px;
-    --base_page-header-font: 2.5rem;
-    --base_page-header-line-height: normal;
+    --base_font: 22px;
+    --base_page-header-font: 2.75rem;
+    --base_page-header-line-height: 28px;
     --base_header-font: 2rem;
     --base_page-subheader-font: 1.5rem;
-    --base_nav-font: 1.25rem;
+    --base_nav-font: 1.5rem;
     --base_copy-font: 1rem;
 
-    --space_sm: 0.75rem;
-    --space_md: 1.25rem;
-    --space_lg: 2rem;
+    --space_sm: 1rem;
+    --space_md: 2rem;
+    --space_lg: 3rem;
 
-    --body_flex-direction: column;
-    --body_gap: 0px;
-    --body_banner-nav-position: static;
+    --logo_size: 45px;
 
-    --logo_size: 35px;
-
-    --nav_toggle-display: flex;
-    --nav_nav-open-display: block;
-    --nav_nav-closed-display: none;
-
-    --footer_position: static;
-
-    --works_grid-cols: repeat(1, 1fr);
+    --works_grid-cols: repeat(3, 1fr);
   }
 }
 

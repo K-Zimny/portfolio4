@@ -1,4 +1,4 @@
-import style from "@/components/footer/contactbar/contactbar.module.css";
+import style from "@/components/body/footer/contactbar/contactbar.module.css";
 import Link from "next/link";
 import Image from "next/image";
 

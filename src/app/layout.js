@@ -2,7 +2,7 @@ import { Karla } from "next/font/google";
 import "./globals.css";
 
 import Body from "@/components/body/Body";
-import Footer from "@/components/footer/Footer";
+import Footer from "@/components/body/footer/Footer";
 
 const karla = Karla({
   variable: "--font-karla",
@@ -19,7 +19,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${karla.variable} antialiased`}>
         <Body>{children}</Body>
-
         <Footer />
       </body>
     </html>

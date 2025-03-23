@@ -1,7 +1,16 @@
-.title {
-  line-height: var(--base_page-header-line-height);
-}
+header.header {
+  margin-bottom: var(--space_md);
 
-.subtitle {
-  font-size: var(--base_page-subheader-font);
+  .title + .subtitle {
+    margin-top: var(--space_sm);
+  }
+
+  .title {
+    line-height: var(--base_page-header-line-height);
+  }
+
+  .subtitle {
+    font-size: var(--base_page-subheader-font);
+    color: var(--color_gray);
+  }
 }

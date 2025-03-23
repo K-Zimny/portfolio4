@@ -2,17 +2,35 @@ nav#nav {
   & li {
     list-style: none;
     margin-left: 0;
+    color: var(--color_gray);
 
     &:first-child {
       margin-top: 0;
     }
   }
 
+  & a:active,
+  & a:focus,
+  & a:hover {
+    color: var(--foreground);
+  }
+
   & a.active {
     text-decoration: underline;
+    color: var(--foreground);
   }
 }
 
+/* Nav Block */
+nav.nav-open {
+  display: var(--nav_nav-open-display);
+}
+
+nav.nav-closed {
+  display: var(--nav_nav-closed-display);
+}
+
+/* Toggle Button */
 button.nav-toggle {
   display: var(--nav_toggle-display);
   justify-content: end;
@@ -30,12 +48,4 @@ button.nav-toggle {
     font-weight: 300;
     margin-right: 10px;
   }
-}
-
-nav.nav-open {
-  display: var(--nav_nav-open-display);
-}
-
-nav.nav-closed {
-  display: var(--nav_nav-closed-display);
 }

@@ -1,40 +1,37 @@
+"use client";
+
 import PageHeader from "@/components/pageheader/PageHeader";
 import style from "@/components/works/work/work.module.css";
 import Image from "next/image";
 import Link from "next/link";
-
-const fakework = {
-  title: "My Fake Work",
-  src: "/placeholder-image.jpg",
-  alt: "My fake alt",
-  description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati necessitatibus aliquam ducimus eligendi explicabo! Aspernatur illo possimus magni minus perspiciatis ullam officiis consequuntur error. Quas blanditiis officia voluptas ipsa unde!",
-  href: "/",
-  repo: "/",
-};
+import works from "@/data/works.json";
+import { usePathname } from "next/navigation";
 
 export default function Work() {
+  const pathName = usePathname(); // Path of current page
+
+  const work = works.find((work) => {
+    if (work.href == pathName) {
+      return work;
+    }
+  });
+
   return (
     <div id={style["work-container"]}>
       <div id={style.work}>
-        <PageHeader title={fakework.title} />
+        <PageHeader title={work.title} />
 
-        <Image
-          src={fakework.src}
-          alt={fakework.alt}
-          width={100}
-          height={100}
-        ></Image>
+        <Image src={work.src} alt={work.alt} width={100} height={100}></Image>
         <ul>
           <li>
-            <Link href={fakework.href}>View the Project</Link>
+            <Link href={work.href}>View the Project</Link>
           </li>
           <li>
-            <Link href={fakework.repo}>Read the Code</Link>
+            <Link href={work.repo}>Read the Code</Link>
           </li>
         </ul>
 
-        <p>{fakework.description}</p>
+        <p>{work.description}</p>
       </div>
       <div>
         <Link href="/works">Back to Works</Link>

@@ -3,12 +3,13 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --color_gray: #676767;
 
   --base_font: 22px;
   --base_page-header-font: 2.75rem;
   --base_page-header-line-height: 28px;
   --base_header-font: 2rem;
-  --base_page-subheader-font: 1.75rem;
+  --base_page-subheader-font: 1.5rem;
   --base_nav-font: 1.5rem;
   --base_copy-font: 1rem;
 
@@ -35,7 +36,7 @@
     --base_page-header-font: 2.5rem;
     --base_page-header-line-height: 28px;
     --base_header-font: 2rem;
-    --base_page-subheader-font: 1.75rem;
+    --base_page-subheader-font: 1.5rem;
     --base_nav-font: 1.5rem;
     --base_copy-font: 1rem;
 
@@ -61,7 +62,7 @@
     --base_page-header-font: 2.5rem;
     --base_page-header-line-height: normal;
     --base_header-font: 2rem;
-    --base_page-subheader-font: 1.75rem;
+    --base_page-subheader-font: 1.5rem;
     --base_nav-font: 1.25rem;
     --base_copy-font: 1rem;
 
@@ -106,21 +107,9 @@ body {
   display: flex;
   flex-direction: column;
   padding: var(--space_lg);
-
-  * {
-    /* outline: 1px solid rgb(233, 233, 233); */
-  }
 }
 
 /* Headings */
-
-header {
-  margin-bottom: var(--space_md);
-
-  h1 + p {
-    margin-top: var(--space_sm);
-  }
-}
 
 h1 {
   font-size: var(--base_page-header-font);
@@ -139,7 +128,6 @@ nav li {
 /* Text */
 
 p {
-  /* font-size: var(--base_copy-font); */
   margin-bottom: var(--space_sm);
 }
 

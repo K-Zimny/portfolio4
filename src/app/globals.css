@@ -21,8 +21,6 @@
   --body_gap: 0px;
   --body_banner-nav-position: static;
 
-  --logo_size: 35px;
-
   --nav_toggle-display: flex;
   --nav_nav-open-display: block;
   --nav_nav-closed-display: none;
@@ -51,8 +49,6 @@
     --body_gap: var(--space_md);
     --body_banner-nav-position: sticky;
 
-    --logo_size: 35px;
-
     --nav_toggle-display: none;
     --nav_nav-open-display: block;
     --nav_nav-closed-display: block;
@@ -77,8 +73,6 @@
     --space_sm: 1rem;
     --space_md: 2rem;
     --space_lg: 3rem;
-
-    --logo_size: 45px;
 
     --works_grid-cols: repeat(3, 1fr);
   }

@@ -8,6 +8,10 @@
     min-width: 200px;
   }
 
+  & .break {
+    margin-bottom: var(--space_md);
+  }
+
   & main {
     z-index: 1;
     background-color: var(--background);

@@ -10,6 +10,7 @@ export default function Body({ children }) {
         <Banner />
         <Navigation />
       </div>
+      <hr className={style.break} />
       <main>{children}</main>
     </div>
   );

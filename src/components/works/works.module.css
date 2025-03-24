@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: var(--works_grid-cols);
   gap: var(--space_lg);
-  margin-block: var(--space_lg);
+  margin-block: var(--space_md);
 }
 
 #works-grid img {

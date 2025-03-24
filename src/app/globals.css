@@ -6,16 +6,16 @@
   --color_gray: #676767;
 
   --base_font: 18px;
-  --base_page-header-font: 2.5rem;
-  --base_page-header-line-height: normal;
+  /* --base_page-header-font: 5rem;
+  --base_page-header-line-height: normal; */
   --base_header-font: 2rem;
-  --base_page-subheader-font: 1.5rem;
+  /* --base_page-subheader-font: 1.5rem; */
   --base_nav-font: 1.25rem;
   --base_copy-font: 1rem;
 
-  --space_sm: 0.75rem;
-  --space_md: 1.25rem;
-  --space_lg: 2rem;
+  --space_sm: 1.25rem;
+  --space_md: 1.75rem;
+  --space_lg: 2.5rem;
 
   --body_flex-direction: column;
   --body_gap: 0px;
@@ -34,16 +34,16 @@
 @media (min-width: 768px) {
   :root {
     --base_font: 20px;
-    --base_page-header-font: 2.5rem;
-    --base_page-header-line-height: 28px;
+    /* --base_page-header-font: 2.5rem;
+    --base_page-header-line-height: 28px; */
     --base_header-font: 2rem;
-    --base_page-subheader-font: 1.5rem;
+    /* --base_page-subheader-font: 1.5rem; */
     --base_nav-font: 1.5rem;
     --base_copy-font: 1rem;
 
-    --space_sm: 0.85rem;
-    --space_md: 1.5rem;
-    --space_lg: 2.5rem;
+    --space_sm: 1.25rem;
+    --space_md: 2.5rem;
+    --space_lg: 4.5rem;
 
     --body_flex-direction: row;
     --body_gap: var(--space_md);
@@ -63,16 +63,16 @@
 @media (min-width: 1280px) {
   :root {
     --base_font: 22px;
-    --base_page-header-font: 2.75rem;
-    --base_page-header-line-height: 28px;
+    /* --base_page-header-font: 2.75rem;
+    --base_page-header-line-height: 28px; */
     --base_header-font: 2rem;
-    --base_page-subheader-font: 1.5rem;
+    /* --base_page-subheader-font: 1.5rem; */
     --base_nav-font: 1.5rem;
     --base_copy-font: 1rem;
 
-    --space_sm: 1rem;
-    --space_md: 2rem;
-    --space_lg: 3rem;
+    --space_sm: 2rem;
+    --space_md: 3rem;
+    --space_lg: 7rem;
 
     --works_grid-cols: repeat(3, 1fr);
   }
@@ -105,9 +105,9 @@ body {
 
 /* Headings */
 
-h1 {
+/* h1 {
   font-size: var(--base_page-header-font);
-}
+} */
 
 h2 {
   font-size: var(--base_header-font);

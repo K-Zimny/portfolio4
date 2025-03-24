@@ -1,12 +1,31 @@
 header.header {
+  --base_page-header-font: 5rem;
+  --base_page-header-font-alignment-left: -2px;
+  --base_page-header-line-height: normal;
+  --base_page-subheader-font: 1.25rem;
+
+  @media (min-width: 768px) {
+    --base_page-header-font: 3rem;
+    --base_page-header-line-height: 28px;
+    --base_page-subheader-font: 1.25rem;
+  }
+
+  @media (min-width: 1280px) {
+    --base_page-header-font: 3.75rem;
+    --base_page-header-line-height: 28px;
+    --base_page-subheader-font: 1.25rem;
+  }
+
   margin-bottom: var(--space_md);
 
   .title + .subtitle {
-    margin-top: var(--space_sm);
+    margin-top: calc(var(--space_sm) / 2);
   }
 
   .title {
+    font-size: var(--base_page-header-font);
     line-height: var(--base_page-header-line-height);
+    margin-left: var(--base_page-header-font-alignment-left);
   }
 
   .subtitle {

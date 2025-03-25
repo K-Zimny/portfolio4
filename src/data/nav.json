@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Works",
+    "href": "/works"
+  },
+  {
+    "title": "Skills",
+    "href": "/skills"
+  },
+  {
+    "title": "About",
+    "href": "/about"
+  },
+  {
+    "title": "Resume",
+    "href": "/resume"
+  },
+  {
+    "title": "Contact",
+    "href": "/contact"
+  }
+]

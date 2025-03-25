@@ -4,29 +4,7 @@ import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import style from "@/components/body/navigation/navigation.module.css";
 import Link from "next/link";
-
-const siteLinks = [
-  {
-    title: "Works",
-    href: "/works",
-  },
-  {
-    title: "Skills",
-    href: "/skills",
-  },
-  {
-    title: "About",
-    href: "/about",
-  },
-  {
-    title: "Resume",
-    href: "/resume",
-  },
-  {
-    title: "Contact",
-    href: "/contact",
-  },
-];
+import links from "@/data/nav.json";
 
 export default function Navigation() {
   const [navIsOpen, setNavIsOpen] = useState(false);
@@ -56,7 +34,7 @@ export default function Navigation() {
         className={navIsOpen ? style["nav-open"] : style["nav-closed"]}
       >
         <ul>
-          {siteLinks.map((link) => {
+          {links.map((link) => {
             return (
               <li key={link.title}>
                 <Link

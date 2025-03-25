@@ -1,0 +1,108 @@
+[
+  {
+    "title": "Web Development Technologies",
+    "items": [
+      "React",
+      "NextJS",
+      "JavaScript",
+      "CSS",
+      "Tailwind",
+      "HTML",
+      "Wordpress",
+      "SQL (MySQL, PostgreSQL)",
+      "Node.js",
+      "AEM",
+      "HTL",
+      "Storybook",
+      "Three.js"
+    ]
+  },
+  {
+    "title": "Styling & Design",
+    "items": [
+      "Responsive Web Design",
+      "Design Fundamentals",
+      "Figma",
+      "UI/UX Principles"
+    ]
+  },
+  {
+    "title": "Web Optimization",
+    "items": [
+      "SEO",
+      "Accessibility",
+      "Site Optimization",
+      "QA & Testing",
+      "Debugging",
+      "Documentation"
+    ]
+  },
+  {
+    "title": "AWS & DevOps",
+    "items": [
+      "AWS Certified Cloud Practitioner",
+      "DynamoDB",
+      "Amplify",
+      "API Gateway",
+      "Lambda",
+      "Vercel",
+      "AWS",
+      "Dreamhost",
+      "Small, Medium, and Large-Scale Deployments"
+    ]
+  },
+  {
+    "title": "Embedded Systems & Electronics",
+    "items": [
+      "C/C++",
+      "Python",
+      "Arduino",
+      "Raspberry Pi",
+      "G-code",
+      "Electronics Prototyping",
+      "3D Printing",
+      "CAD (Fusion360)"
+    ]
+  },
+  {
+    "title": "Artificial Intelligence Usage",
+    "items": [
+      "Enhancing Development Efficiency",
+      "Problem Solving",
+      "Architectural Solutions"
+    ]
+  },
+  {
+    "title": "Tools & Security",
+    "items": [
+      "Git (GitHub, GitLab)",
+      "Bitbucket",
+      "npm",
+      "yarn",
+      "Maven",
+      "CLI",
+      "CompTIA Security+ Certified"
+    ]
+  },
+  {
+    "title": "Technical Proficiencies",
+    "items": ["Algorithms", "APIs", "Ecommerce"]
+  },
+  {
+    "title": "Methodologies & Collaboration",
+    "items": [
+      "Agile Methodologies",
+      "Team Collaboration",
+      "Customer & Client Relationships"
+    ]
+  },
+  {
+    "title": "Soft Skills",
+    "items": [
+      "Excellent Communication",
+      "Critical Thinking & Reflection",
+      "Strategic Planning & Organization",
+      "Professionalism & Passion"
+    ]
+  }
+]

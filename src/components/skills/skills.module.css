@@ -1,0 +1,10 @@
+.category {
+  margin-bottom: calc(var(--space_lg) * 2);
+  margin-left: var(--space_md);
+}
+
+.skill {
+  list-style: none;
+  margin: var(--space_sm);
+  margin-left: var(--space_lg);
+}

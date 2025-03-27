@@ -12,7 +12,7 @@ header.header {
 
   @media (min-width: 1280px) {
     --base_page-header-font: 3.75rem;
-    --base_page-header-line-height: 28px;
+    --base_page-header-line-height: 36px;
     --base_page-subheader-font: 1.25rem;
   }
 

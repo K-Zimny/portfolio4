@@ -4,7 +4,7 @@ import Skills from "@/components/skills/Skills";
 export default function skills() {
   return (
     <>
-      <PageHeader title="Skills" />
+      <PageHeader className="text-center" title="Proficiencies" />
 
       <Skills />
     </>

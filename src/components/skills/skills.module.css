@@ -1,10 +1,29 @@
+#skills {
+  --indent: calc(var(--space_sm) / 2);
+
+  @media (min-width: 768px) {
+    --indent: var(--space_sm);
+  }
+
+  & fragment:first-child > section {
+    padding-top: var(--space_sm);
+    /* margin-top: 0; */
+  }
+}
+
 .category {
-  margin-bottom: calc(var(--space_lg) * 2);
-  margin-left: var(--space_md);
+  padding-block: calc(var(--space_lg) * 1);
+  /* margin-left: var(--indent); */
+  text-align: center;
+}
+
+.category h2 {
+  margin-bottom: var(--space_md);
 }
 
 .skill {
   list-style: none;
   margin: var(--space_sm);
-  margin-left: var(--space_lg);
+  /* margin-left: var(--indent); */
+  text-align: center;
 }

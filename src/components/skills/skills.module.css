@@ -5,12 +5,11 @@
     --indent: var(--space_sm);
   }
 
-  & fragment:first-child > section {
+  & > section:first-child {
     padding-top: var(--space_sm);
     /* margin-top: 0; */
   }
 }
-
 .category {
   padding-block: calc(var(--space_lg) * 1);
   /* margin-left: var(--indent); */

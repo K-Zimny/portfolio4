@@ -1,12 +1,13 @@
 import style from "./skills.module.css";
 import skillsData from "@/data/skills.json";
+import { Fragment } from "react";
 
 export default function Skills() {
   return (
     <div id={style.skills}>
       {skillsData.map((category) => {
         return (
-          <fragment key={category.title}>
+          <Fragment key={category.title}>
             <section className={style.category} key={category.title}>
               <h2>{category.title}</h2>
               <ul>
@@ -20,7 +21,7 @@ export default function Skills() {
               </ul>
             </section>
             <hr />
-          </fragment>
+          </Fragment>
         );
       })}
     </div>

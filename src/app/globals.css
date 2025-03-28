@@ -3,10 +3,14 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --color_white: #ffffff;
   --color_gray: #676767;
+  --color_light-gray: #cfcfcf;
+  --color_lightest-gray: #efefef;
+  --color_primary: #767676;
 
   --base_font: 18px;
-  --base_header-font: 2rem;
+  --base_header-font: 1.75rem;
   --base_nav-font: 1.25rem;
   --base_copy-font: 1rem;
 

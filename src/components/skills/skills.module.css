@@ -11,18 +11,29 @@
   }
 }
 .category {
-  padding-block: calc(var(--space_lg) * 1);
+  padding-bottom: calc(var(--space_lg) * 1);
   /* margin-left: var(--indent); */
   text-align: center;
 }
 
 .category h2 {
   margin-bottom: var(--space_md);
+  text-decoration: underline;
+  text-decoration-color: var(--color_gray);
+  text-underline-offset: 3px;
+  /* text-decoration-thickness: 2px; */
+  /* background-color: var(--color_lightest-gray); */
+}
+
+.category li:last-child {
+  margin-bottom: 0;
 }
 
 .skill {
   list-style: none;
-  margin: var(--space_sm);
+  margin: calc(var(--space_sm) / 2);
   /* margin-left: var(--indent); */
   text-align: center;
+  /* display: inline-block;
+  min-width: 200px; */
 }

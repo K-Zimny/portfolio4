@@ -1,6 +1,6 @@
 [
   {
-    "title": "Web Development Technologies",
+    "title": "Web",
     "items": [
       "React",
       "NextJS",
@@ -8,6 +8,7 @@
       "CSS",
       "Tailwind",
       "HTML",
+      "APIs",
       "Wordpress",
       "SQL (MySQL, PostgreSQL)",
       "Node.js",
@@ -18,16 +19,7 @@
     ]
   },
   {
-    "title": "Styling & Design",
-    "items": [
-      "Responsive Web Design",
-      "Design Fundamentals",
-      "Figma",
-      "UI/UX Principles"
-    ]
-  },
-  {
-    "title": "Web Optimization",
+    "title": "Optimization",
     "items": [
       "SEO",
       "Accessibility",
@@ -38,9 +30,8 @@
     ]
   },
   {
-    "title": "AWS & DevOps",
+    "title": "DevOps",
     "items": [
-      "AWS Certified Cloud Practitioner",
       "DynamoDB",
       "Amplify",
       "API Gateway",
@@ -52,7 +43,28 @@
     ]
   },
   {
-    "title": "Embedded Systems & Electronics",
+    "title": "Certificates",
+    "items": ["CompTIA Security+ ", "AWS Certified Cloud Practitioner"]
+  },
+  {
+    "title": "Design",
+    "items": [
+      "Responsive Web Design",
+      "Design Fundamentals",
+      "Figma",
+      "UI/UX Principles"
+    ]
+  },
+  {
+    "title": "AI",
+    "items": [
+      "Enhancing Development Efficiency",
+      "Problem Solving",
+      "Architectural Solutions"
+    ]
+  },
+  {
+    "title": "Embedded & Electronics",
     "items": [
       "C/C++",
       "Python",
@@ -65,15 +77,7 @@
     ]
   },
   {
-    "title": "Artificial Intelligence Usage",
-    "items": [
-      "Enhancing Development Efficiency",
-      "Problem Solving",
-      "Architectural Solutions"
-    ]
-  },
-  {
-    "title": "Tools & Security",
+    "title": "Tools",
     "items": [
       "Git (GitHub, GitLab)",
       "Bitbucket",
@@ -85,11 +89,7 @@
     ]
   },
   {
-    "title": "Technical Proficiencies",
-    "items": ["Algorithms", "APIs", "Ecommerce"]
-  },
-  {
-    "title": "Methodologies & Collaboration",
+    "title": "Collaboration",
     "items": [
       "Agile Methodologies",
       "Team Collaboration",

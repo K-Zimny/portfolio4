@@ -20,7 +20,6 @@ export default function Skills() {
                 })}
               </ul>
             </section>
-            {/* <hr /> */}
           </Fragment>
         );
       })}

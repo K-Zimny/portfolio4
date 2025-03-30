@@ -1,0 +1,17 @@
+{
+  "WorkSnippet": {
+    "prefix": "work",
+    "body": [
+      "{",
+      "  \"title\": \"${1:Project Title}\",",
+      "  \"route\": \"/works/${2:project-route}\",",
+      "  \"href\": \"/works/${2:project-route}\",",
+      "  \"src\": \"/${3:project-image}\",",
+      "  \"alt\": \"${1:Project Title}\",",
+      "  \"description\": \"${4:Project description. Skills used: Skill1, Skill2, Skill3, etc.}\",",
+      "  \"repo\": \"${5:https://github.com/placeholder/repo}\"",
+      "},"
+    ],
+    "description": "Snippet for a project JSON object"
+  }
+}

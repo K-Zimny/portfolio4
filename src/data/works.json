@@ -1,6 +1,34 @@
 [
   {
+    "title": "Coffee Logger",
+    "route": "/works/coffee-logger",
+    "href": "/works/coffee-logger",
+    "src": "/coffee-logger.png",
+    "alt": "Coffee Logger",
+    "description": "Embedded C/C++ microcontroller connected to AWS for real-time coffee data storage.",
+    "repo": "https://github.com/placeholder/repo"
+  },
+  {
+    "title": "CompTIA Security+ SYO-701 Notebook",
+    "route": "/works/security-notebook",
+    "href": "/works/security-notebook",
+    "src": "/security-notebook.png",
+    "alt": "CompTIA Security+ SYO-701 Notebook",
+    "description": "Comprehensive resource for the CompTIA Security+ SY0-701 certification.",
+    "repo": "https://github.com/placeholder/repo"
+  },
+  {
+    "title": "Map Gen",
+    "route": "/works/map-gen",
+    "href": "/works/map-gen",
+    "src": "/map-gen.png",
+    "alt": "Map Gen",
+    "description": " Grid Generation Program designed to generate maps by utilizing a grid border generation algorithm.",
+    "repo": "https://github.com/placeholder/repo"
+  },
+  {
     "title": "Let Loose",
+    "route": "/works/let-loose",
     "href": "/works/let-loose",
     "src": "/letloose.png",
     "alt": "Let Loose",
@@ -8,51 +36,30 @@
     "repo": "https://github.com/placeholder/repo"
   },
   {
-    "title": "My Fake Title 1",
-    "href": "/works/my-fake-title-1",
-    "src": "/placeholder-image.jpg",
-    "alt": "Fake Alt",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati necessitatibus aliquam ducimus eligendi explicabo! Aspernatur illo possimus magni minus perspiciatis ullam officiis consequuntur error. Quas blanditiis officia voluptas ipsa unde!",
+    "title": "Meal Outpost",
+    "route": "/works/meal-outpost",
+    "href": "/works/meal-outpost",
+    "src": "/mealoutpost.png",
+    "alt": "Meal Outpost",
+    "description": "Crypto Back Fast Food Organization: Skills used: Three.js, HTML5, CSS3, AOS, Git",
     "repo": "https://github.com/placeholder/repo1"
   },
   {
-    "title": "My Fake Title 2",
-    "href": "/works/work",
-    "src": "/placeholder-image.jpg",
-    "alt": "Fake Alt",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati necessitatibus aliquam ducimus eligendi explicabo! Aspernatur illo possimus magni minus perspiciatis ullam officiis consequuntur error. Quas blanditiis officia voluptas ipsa unde!",
+    "title": "Pizza Lobo",
+    "route": "/works/pizza-lobo",
+    "href": "/works/pizza-lobo",
+    "src": "/pizzalobo.png",
+    "alt": "Pizza Lobo",
+    "description": "Hip Pizza Restaurant. Skills used: HTML5, CSS3, WordPress, Responsive Web Design, Git, PHP, Photoshop",
     "repo": "https://github.com/placeholder/repo2"
   },
   {
-    "title": "My Fake Title 3",
-    "href": "/works/work",
-    "src": "/placeholder-image.jpg",
+    "title": "Tractatus Design Studio",
+    "route": "/works/tractatus-design-studio",
+    "href": "/works/tractatus-design-studio",
+    "src": "/tractatus-home.png",
     "alt": "Fake Alt",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati necessitatibus aliquam ducimus eligendi explicabo! Aspernatur illo possimus magni minus perspiciatis ullam officiis consequuntur error. Quas blanditiis officia voluptas ipsa unde!",
+    "description": "Web design studio. Skills used: HTML5, CSS3, WordPress, Responsive Web Design, Git, PHP, Photoshop",
     "repo": "https://github.com/placeholder/repo3"
-  },
-  {
-    "title": "My Fake Title 4",
-    "href": "/works/work",
-    "src": "/placeholder-image.jpg",
-    "alt": "Fake Alt",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati necessitatibus aliquam ducimus eligendi explicabo! Aspernatur illo possimus magni minus perspiciatis ullam officiis consequuntur error. Quas blanditiis officia voluptas ipsa unde!",
-    "repo": "https://github.com/placeholder/repo4"
-  },
-  {
-    "title": "My Fake Title 5",
-    "href": "/works/work",
-    "src": "/placeholder-image.jpg",
-    "alt": "Fake Alt",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati necessitatibus aliquam ducimus eligendi explicabo! Aspernatur illo possimus magni minus perspiciatis ullam officiis consequuntur error. Quas blanditiis officia voluptas ipsa unde!",
-    "repo": "https://github.com/placeholder/repo5"
-  },
-  {
-    "title": "My Fake Title 6",
-    "href": "/works/work",
-    "src": "/placeholder-image.jpg",
-    "alt": "Fake Alt",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati necessitatibus aliquam ducimus eligendi explicabo! Aspernatur illo possimus magni minus perspiciatis ullam officiis consequuntur error. Quas blanditiis officia voluptas ipsa unde!",
-    "repo": "https://github.com/placeholder/repo6"
   }
 ]

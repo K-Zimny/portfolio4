@@ -11,7 +11,7 @@ export default function Work() {
   const pathName = usePathname(); // Path of current page
 
   const work = works.find((work) => {
-    if (work.href == pathName) {
+    if (work.route == pathName) {
       return work;
     }
   });

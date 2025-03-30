@@ -1,10 +1,10 @@
 [
   {
-    "title": "My Fake Title",
-    "href": "/works/my-fake-title",
-    "src": "/placeholder-image.jpg",
-    "alt": "Fake Alt",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati necessitatibus aliquam ducimus eligendi explicabo! Aspernatur illo possimus magni minus perspiciatis ullam officiis consequuntur error. Quas blanditiis officia voluptas ipsa unde!",
+    "title": "Let Loose",
+    "href": "/works/let-loose",
+    "src": "/letloose.png",
+    "alt": "Let Loose",
+    "description": "A fully immersive dining experience. Skills used: HTML5, CSS3, WordPress, LiveCanvas, Responsive Web Design, Git, JavaScript, Ecommerce",
     "repo": "https://github.com/placeholder/repo"
   },
   {

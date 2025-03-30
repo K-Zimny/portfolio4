@@ -1,10 +1,17 @@
 #works-grid {
   display: grid;
   grid-template-columns: var(--works_grid-cols);
-  gap: var(--space_lg);
+  gap: var(--space_sm);
   margin-block: var(--space_md);
+}
+
+#works-grid .work {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space_sm);
 }
 
 #works-grid img {
   width: 100%;
+  aspect-ratio: 16/9;
 }

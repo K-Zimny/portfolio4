@@ -5,9 +5,9 @@ import works from "@/data/works.json";
 
 const Work = ({ title, href, src, alt, description }) => {
   return (
-    <Link href={href} className={style.work}>
+    <Link href={href} className={`${style.work} card`}>
+      <Image src={src} alt={alt} width={1920} height={1080}></Image>
       <h2>{title}</h2>
-      <Image src={src} alt={alt} width={100} height={100}></Image>
       <p>{description}</p>
     </Link>
   );

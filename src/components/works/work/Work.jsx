@@ -21,7 +21,7 @@ export default function Work() {
       <div id={style.work}>
         <PageHeader title={work.title} />
 
-        <Image src={work.src} alt={work.alt} width={100} height={100}></Image>
+        <Image src={work.src} alt={work.alt} width={1920} height={1080}></Image>
         <ul>
           <li>
             <Link href={work.href}>View the Project</Link>

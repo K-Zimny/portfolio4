@@ -123,17 +123,3 @@ ul li {
   margin-left: var(--space_sm);
   list-style: disc;
 }
-
-/* Card */
-
-.card {
-  padding: var(--space_sm);
-  box-shadow: 4px 4px var(--color_lightest-gray);
-  transition: box-shadow 0.3s ease;
-
-  &:hover,
-  &:focus,
-  &:active {
-    box-shadow: 4px 4px var(--color_light-gray);
-  }
-}

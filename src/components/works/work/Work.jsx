@@ -19,9 +19,15 @@ export default function Work() {
   return (
     <div id={style["work-container"]}>
       <div id={style.work}>
-        <PageHeader title={work.title} />
+        <PageHeader title={work.title} subtitle={work.description} />
+        {/* <p>{work.description}</p> */}
 
-        <Image src={work.src} alt={work.alt} width={1920} height={1080}></Image>
+        <iframe
+          className="w-full h-[740px] border border-black"
+          src="https://comp-tia-security-sy-0-701-notebook.vercel.app"
+        ></iframe>
+
+        {/* <Image src={work.src} alt={work.alt} width={1920} height={1080}></Image> */}
         <ul>
           <li>
             <Link href={work.href}>View the Project</Link>
@@ -30,8 +36,6 @@ export default function Work() {
             <Link href={work.repo}>Read the Code</Link>
           </li>
         </ul>
-
-        <p>{work.description}</p>
       </div>
       <div>
         <Link href="/works">Back to Works</Link>

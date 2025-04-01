@@ -27,8 +27,6 @@
   --nav_nav-closed-display: none;
 
   --footer_position: static;
-
-  --works_grid-cols: repeat(1, 1fr);
 }
 
 /* Tablet breakpoint */
@@ -52,8 +50,6 @@
     --nav_nav-closed-display: block;
 
     --footer_position: sticky;
-
-    --works_grid-cols: repeat(2, 1fr);
   }
 }
 
@@ -68,8 +64,6 @@
     --space_sm: 2rem;
     --space_md: 3rem;
     --space_lg: 7rem;
-
-    --works_grid-cols: repeat(3, 1fr);
   }
 }
 

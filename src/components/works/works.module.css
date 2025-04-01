@@ -1,17 +1,33 @@
 #works-grid {
+  --works_grid-cols: repeat(1, 1fr);
+  --description-size: 1rem;
+
+  @media (min-width: 768px) {
+    --description-size: 1.25rem;
+  }
+
+  @media (min-width: 1280px) {
+    --works_grid-cols: repeat(2, 1fr);
+  }
+
   display: grid;
   grid-template-columns: var(--works_grid-cols);
-  gap: var(--space_sm);
+  gap: var(--space_lg);
   margin-block: var(--space_md);
 }
 
 #works-grid .work {
   display: flex;
   flex-direction: column;
-  gap: var(--space_sm);
+}
+
+.description {
+  color: var(--color_gray);
+  font-size: var(--description-size);
 }
 
 #works-grid img {
   width: 100%;
   aspect-ratio: 16/9;
+  margin-bottom: var(--space_sm);
 }

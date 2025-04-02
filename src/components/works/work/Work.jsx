@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import works from "@/data/works.json";
 import { usePathname } from "next/navigation";
-import { ScrollLockContext } from "@/app/layout";
+import { ScrollLockContext } from "@/components/clientlayout/ClientLayout";
 import { useContext } from "react";
 
 export default function Work() {
@@ -19,7 +19,8 @@ export default function Work() {
     }
   });
 
-  const handleScrollLock = () => {
+  const handleScrollLock = (e) => {
+    console.log("scroll event", e.clientX);
     setScrollLock((prev) => {
       return !prev;
     });
@@ -32,10 +33,10 @@ export default function Work() {
         {/* <p>{work.description}</p> */}
 
         <iframe
-          className="w-full h-[740px]  opacity-50 hover:opacity-100 border border-black"
           src="https://comp-tia-security-sy-0-701-notebook.vercel.app"
-          onMouseEnter={handleScrollLock}
-          onMouseLeave={handleScrollLock}
+          // onMouseEnter={handleScrollLock}
+          // onMouseLeave={handleScrollLock}
+          onMouseMove={(e) => handleScrollLock(e)}
         ></iframe>
 
         {/* <Image src={work.src} alt={work.alt} width={1920} height={1080}></Image> */}

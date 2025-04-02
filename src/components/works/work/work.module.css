@@ -9,3 +9,7 @@
   aspect-ratio: 16/9;
   width: 100%;
 }
+
+#work-container iframe {
+  scroll-margin-top: var(--space_lg);
+}

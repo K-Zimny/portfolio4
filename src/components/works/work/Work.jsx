@@ -38,8 +38,6 @@ export default function Work() {
           onMouseLeave={handleScrollLock}
         ></iframe>
 
-        <button onClick={handleScrollLock}>Scroll Lock</button>
-
         {/* <Image src={work.src} alt={work.alt} width={1920} height={1080}></Image> */}
         <ul>
           <li>

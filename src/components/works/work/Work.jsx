@@ -6,8 +6,11 @@ import Image from "next/image";
 import Link from "next/link";
 import works from "@/data/works.json";
 import { usePathname } from "next/navigation";
+import { ScrollLockContext } from "@/app/layout";
+import { useContext } from "react";
 
 export default function Work() {
+  const { scrollLock, setScrollLock } = useContext(ScrollLockContext);
   const pathName = usePathname(); // Path of current page
 
   const work = works.find((work) => {
@@ -16,6 +19,12 @@ export default function Work() {
     }
   });
 
+  const handleScrollLock = () => {
+    setScrollLock((prev) => {
+      return !prev;
+    });
+  };
+
   return (
     <div id={style["work-container"]}>
       <div id={style.work}>
@@ -23,9 +32,13 @@ export default function Work() {
         {/* <p>{work.description}</p> */}
 
         <iframe
-          className="w-full h-[740px] border border-black"
+          className="w-full h-[740px]  opacity-50 hover:opacity-100 border border-black"
           src="https://comp-tia-security-sy-0-701-notebook.vercel.app"
+          onMouseEnter={handleScrollLock}
+          onMouseLeave={handleScrollLock}
         ></iframe>
+
+        <button onClick={handleScrollLock}>Scroll Lock</button>
 
         {/* <Image src={work.src} alt={work.alt} width={1920} height={1080}></Image> */}
         <ul>

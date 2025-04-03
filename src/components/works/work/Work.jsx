@@ -22,6 +22,7 @@ export default function Work() {
   const handleScrollLock = (e) => {
     console.log("scroll event", e.clientX);
     setScrollLock((prev) => {
+      console.log(prev);
       return !prev;
     });
   };
@@ -33,25 +34,25 @@ export default function Work() {
         {/* <p>{work.description}</p> */}
 
         <iframe
-          src="https://comp-tia-security-sy-0-701-notebook.vercel.app"
+          src={work.iframe}
           // onMouseEnter={handleScrollLock}
           // onMouseLeave={handleScrollLock}
-          onMouseMove={(e) => handleScrollLock(e)}
+          // onMouseMove={(e) => handleScrollLock(e)}
         ></iframe>
 
         {/* <Image src={work.src} alt={work.alt} width={1920} height={1080}></Image> */}
-        <ul>
+        {/* <ul>
           <li>
             <Link href={work.href}>View the Project</Link>
           </li>
           <li>
             <Link href={work.repo}>Read the Code</Link>
           </li>
-        </ul>
+        </ul> */}
       </div>
-      <div>
+      {/* <div>
         <Link href="/works">Back to Works</Link>
-      </div>
+      </div> */}
     </div>
   );
 }

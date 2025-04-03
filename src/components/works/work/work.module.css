@@ -18,11 +18,20 @@
   width: 100%;
 }
 
+#work-container #work {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
 #work-container iframe {
+  font-size: 10px;
+  flex-grow: 1;
+  margin-top: calc(var(--space_md) * -1);
   scroll-margin-top: var(--space_lg);
   width: 100%;
-  height: 60dvh;
-  opacity: 0.75;
+  /* height: 60dvh; */
+  /* opacity: 0.75; */
   &:hover {
     opacity: 1;
   }

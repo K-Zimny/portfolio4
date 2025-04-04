@@ -6,7 +6,7 @@
   }
 
   & > section:first-child {
-    padding-top: var(--space_sm);
+    padding-top: 0;
   }
 }
 .category {

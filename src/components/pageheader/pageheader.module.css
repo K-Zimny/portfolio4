@@ -20,6 +20,7 @@ header.header {
 
   .title + .subtitle {
     margin-top: calc(var(--space_sm) / 2);
+    margin-bottom: 0;
   }
 
   .title {

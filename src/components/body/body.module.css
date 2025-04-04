@@ -13,9 +13,12 @@
   }
 
   & main {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    width: 100%;
     z-index: 1;
     background-color: var(--background);
-    width: 100%;
   }
 }
 

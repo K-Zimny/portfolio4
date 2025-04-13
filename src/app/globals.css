@@ -3,6 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --color_black: #171717;
   --color_white: #ffffff;
   --color_gray: #676767;
   --color_light-gray: #cfcfcf;
@@ -39,7 +40,7 @@
 
     --space_sm: 1.25rem;
     --space_md: 2.5rem;
-    --space_lg: 4.5rem;
+    --space_lg: 3.5rem;
 
     --body_flex-direction: row;
     --body_gap: var(--space_md);
@@ -63,7 +64,7 @@
 
     --space_sm: 2rem;
     --space_md: 3rem;
-    --space_lg: 7rem;
+    --space_lg: 4rem;
   }
 }
 
@@ -113,7 +114,7 @@ p {
 /* Lists */
 
 ul li {
-  margin-block: var(--space_md);
+  margin-block: var(--space_sm);
   margin-left: var(--space_sm);
   list-style: disc;
 }

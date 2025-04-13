@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import works from "@/data/works.json";
 import { usePathname } from "next/navigation";
+import CTA from "@/components/cta/CTA";
 
 export default function Work() {
   const pathName = usePathname(); // Path of current page
@@ -23,11 +24,11 @@ export default function Work() {
 
         <Image src={work.src} alt={work.alt} width={1920} height={1080}></Image>
         <ul>
-          <li>
-            <Link href={work.href}>View the Project</Link>
+          <li className="!ml-0 !list-none">
+            <CTA href={work.href}>View the Project</CTA>
           </li>
-          <li>
-            <Link href={work.repo}>Read the Code</Link>
+          <li className="!ml-0 !list-none">
+            <CTA href={work.repo}>Read the Code</CTA>
           </li>
         </ul>
 

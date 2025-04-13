@@ -1,6 +1,7 @@
 import Link from "next/link";
 import PageHeader from "@/components/pageheader/PageHeader";
 import contacts from "@/data/contacts.json";
+import CTA from "@/components/cta/CTA";
 
 export default function contact() {
   return (
@@ -8,17 +9,14 @@ export default function contact() {
       <PageHeader title="Contact" />
 
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-        similique iusto sed explicabo odio, id dolorum officiis ea impedit omnis
-        aliquam nostrum modi excepturi minima facilis laudantium eligendi.
-        Voluptatem, quibusdam.
+      If you're interested in discussing opportunities, projects, or collaborations, I&apos;d be happy to connect. Please use the contact options below for inquiries.
       </p>
 
       <ul>
         {contacts.map((contact) => {
           return (
-            <li key={contact.name}>
-              <Link href={contact.href}>{contact.name}</Link>
+            <li className="!ml-0 !list-none" key={contact.name}>
+              <CTA href={contact.href}>{contact.name}</CTA>
             </li>
           );
         })}

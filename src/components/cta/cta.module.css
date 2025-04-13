@@ -1,0 +1,13 @@
+.cta {
+    color: var(--color_gray);
+    display: inline-block;
+    border: 1px solid var(--color_gray);
+    padding: calc(var(--space_sm) /2);
+
+    &:hover,
+    &:active,
+    &:focus {
+        color: var(--color_black);
+        border-color: var(--color_black);
+    }
+}

@@ -2,6 +2,7 @@ nav#nav {
   & li {
     list-style: none;
     margin-left: 0;
+    padding-block: calc(var(--space_sm) / 2);
     color: var(--color_gray);
 
     &:first-child {
@@ -21,7 +22,7 @@ nav#nav {
   }
 }
 
-/* Nav Block */
+/* Mobile Menu */
 nav.nav-open {
   display: var(--nav_nav-open-display);
 }

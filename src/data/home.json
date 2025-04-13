@@ -3,8 +3,8 @@
     "position": "Frontend Developer",
     "intro": "Dynamic and forward-thinking software developer with a strong focus on frontend development, complemented by experience in full-stack and embedded systems. Recognized for creating secure, scalable solutions that adapt to changing demands, with an emphasis on delivering thoughtful features that enhance and simplify user experiences. Proven ability to align technical strategies with business goals across diverse roles—including sole developer, business owner, and collaborative team contributor—bringing both technical excellence and user-centered design to every project.",
     "siteLinks": [
-        { "href": "/works", "title": "Works" },
         { "href": "/skills", "title": "Skills" },
+        { "href": "/works", "title": "Works" },
         { "href": "/contact", "title": "Contact" }
     ]
 }

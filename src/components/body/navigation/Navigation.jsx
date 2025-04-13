@@ -33,7 +33,7 @@ export default function Navigation() {
         id={style.nav}
         className={navIsOpen ? style["nav-open"] : style["nav-closed"]}
       >
-        <ul>
+        <ul className={style["link-list"]}>
           {links.map((link) => {
             return (
               <li key={link.title}>

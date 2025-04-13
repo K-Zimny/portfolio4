@@ -9,7 +9,7 @@ export default function contact() {
       <PageHeader title="Contact" />
 
       <p>
-      If you're interested in discussing opportunities, projects, or collaborations, I&apos;d be happy to connect. Please use the contact options below for inquiries.
+      If you&apos;re interested in discussing opportunities, projects, or collaborations, I&apos;d be happy to connect. Please use the contact options below for inquiries.
       </p>
 
       <ul>

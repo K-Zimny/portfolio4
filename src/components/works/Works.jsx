@@ -5,11 +5,11 @@ import works from "@/data/works.json";
 
 const Work = ({ title, href, src, alt, description }) => {
   return (
-    <div className={style.work}>
+    <a href={href} target="_blank" className={style.work}>
       <Image src={src} alt={alt} width={1920} height={1080}></Image>
       <h2>{title}</h2>
       <p className={style.description}>{description}</p>
-    </div>
+    </a>
   );
 };
 

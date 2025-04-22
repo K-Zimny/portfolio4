@@ -2,7 +2,7 @@
   {
     "title": "Coffee Logger",
     "route": "/works/coffee-logger",
-    "href": "/works/coffee-logger",
+    "href": "https://coffee-logger.vercel.app/",
     "src": "/coffee-logger.png",
     "alt": "Coffee Logger",
     "description": "Embedded C/C++ microcontroller system integrated with AWS to track and store real-time coffee data. Built with Next.js, React, and cloud-based architecture for seamless data visualization and accessibility.",
@@ -11,7 +11,7 @@
   {
     "title": "Connected International",
     "route": "/works/connected-international",
-    "href": "/works/connected-international",
+    "href": "https://ci-orcin.vercel.app/",
     "src": "/ci.png",
     "alt": "Connected International",
     "description": "Prototype landing page for an international agency, designed with a minimalistic yet bold fashion aesthetic. Prioritizes clean visuals and striking typography for a sophisticated digital presence.",
@@ -20,7 +20,7 @@
   {
     "title": "CompTIA Notebook",
     "route": "/works/security-notebook",
-    "href": "/works/security-notebook",
+    "href": "https://comp-tia-security-sy-0-701-notebook.vercel.app/",
     "src": "/security-notebook.png",
     "alt": "CompTIA Security+ SYO-701 Notebook",
     "description": "A comprehensive study resource for the CompTIA Security+ SY0-701 and AWS Certified Cloud Practitioner exams. Built with Next.js and React, it features test prep scoring and interactive flashcards for effective learning.",
@@ -29,7 +29,7 @@
   {
     "title": "Map Gen",
     "route": "/works/map-gen",
-    "href": "/works/map-gen",
+    "href": "https://map-gen.vercel.app/",
     "src": "/map-gen.png",
     "alt": "Map Gen",
     "description": "Generates maps dynamically using a grid border generation algorithm. Built with Next.js and React, it delivers structured and scalable map layouts with efficient rendering.",
@@ -38,7 +38,7 @@
   {
     "title": "Let Loose",
     "route": "/works/let-loose",
-    "href": "/works/let-loose",
+    "href": "https://let-loose.vercel.app/",
     "src": "/letloose.png",
     "alt": "Let Loose",
     "description": "A fully immersive dining experience powered by WordPress and integrated eCommerce functionality, designed for a seamless and engaging user experience.",
@@ -47,7 +47,7 @@
   {
     "title": "Meal Outpost",
     "route": "/works/meal-outpost",
-    "href": "/works/meal-outpost",
+    "href": "https://meal-outpost.vercel.app/",
     "src": "/mealoutpost.png",
     "alt": "Meal Outpost",
     "description": "Website for a crypto-backed fast-food organization, built with Three.js to create an engaging and visually immersive digital experience.",
@@ -56,7 +56,7 @@
   {
     "title": "Pizza Lobo",
     "route": "/works/pizza-lobo",
-    "href": "/works/pizza-lobo",
+    "href": "https://pizza-lobo.vercel.app/",
     "src": "/pizzalobo.png",
     "alt": "Pizza Lobo",
     "description": "A vibrant, hip pizza restaurant website built with WordPress, featuring seamless online ordering for a smooth and engaging customer experience.",
@@ -65,9 +65,9 @@
   {
     "title": "Tractatus Design Studio",
     "route": "/works/tractatus-design-studio",
-    "href": "/works/tractatus-design-studio",
+    "href": "https://tractatus-design-studio.vercel.app/",
     "src": "/tractatus-home.png",
-    "alt": "Fake Alt",
+    "alt": "Tractatus Design Studio",
     "description": "Web design studio powered by WordPress, crafting sleek, functional, and engaging digital experiences tailored to modern branding needs.",
     "repo": "https://github.com/placeholder/repo3"
   }

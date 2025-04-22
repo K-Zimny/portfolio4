@@ -9,12 +9,21 @@
     "repo": "https://github.com/placeholder/repo"
   },
   {
+    "title": "Connected International",
+    "route": "/works/connected-international",
+    "href": "/works/connected-international",
+    "src": "/ci.png",
+    "alt": "Connected International",
+    "description": "Prototype Landing for International Agency.",
+    "repo": "https://github.com/placeholder/repo"
+  },
+  {
     "title": "CompTIA Notebook",
     "route": "/works/security-notebook",
     "href": "/works/security-notebook",
     "src": "/security-notebook.png",
     "alt": "CompTIA Security+ SYO-701 Notebook",
-    "description": "Comprehensive resource for the CompTIA Security+ SY0-701 certification.",
+    "description": "Comprehensive resource for the CompTIA Security+ SY0-701 and AWS Certified Cloud Practitioner exams.",
     "repo": "https://github.com/placeholder/repo"
   },
   {

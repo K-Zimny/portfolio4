@@ -6,6 +6,6 @@
         { "href": "/skills", "title": "Skills" },
         { "href": "/works", "title": "Works" },
         { "href": "/contact", "title": "Contact" },
-        { "href": "/kenneth-zimny-resume", "title":"Resume"}
+        { "href": "/kenneth-zimny-resume.pdf", "title":"Resume"}
     ]
 }

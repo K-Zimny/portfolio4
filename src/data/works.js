@@ -1,4 +1,20 @@
-[
+/**
+ * @typedef {Object} Work
+ * @property {string} title - The title of the work
+ * @property {string} route - The internal route path
+ * @property {string} href - The external URL
+ * @property {string} src - The image source path
+ * @property {string} alt - The image alt text
+ * @property {string} description - The work description
+ * @property {string} repo - The repository URL
+ */
+
+/**
+ * Collection of portfolio works/projects.
+ * Use VS Snippet "work" for new entry.
+ * @type {Work[]}
+ */
+const works = [
   {
     "title": "Army Career Map",
     "route": "/works/army-career-map",
@@ -17,15 +33,15 @@
     "description": "Embedded C/C++ microcontroller system integrated with AWS to track and store real-time coffee data. Built with Next.js, React, and cloud-based architecture for seamless data visualization and accessibility.",
     "repo": "https://github.com/placeholder/repo"
   },
-  {
-    "title": "Connected International",
-    "route": "/works/connected-international",
-    "href": "https://ci-orcin.vercel.app/",
-    "src": "/ci.png",
-    "alt": "Connected International",
-    "description": "Prototype landing page for an international agency, designed with a minimalistic yet bold fashion aesthetic. Prioritizes clean visuals and striking typography for a sophisticated digital presence.",
-    "repo": "https://github.com/placeholder/repo"
-  },
+  // {
+  //   "title": "Connected International",
+  //   "route": "/works/connected-international",
+  //   "href": "https://ci-orcin.vercel.app/",
+  //   "src": "/ci.png",
+  //   "alt": "Connected International",
+  //   "description": "Prototype landing page for an international agency, designed with a minimalistic yet bold fashion aesthetic. Prioritizes clean visuals and striking typography for a sophisticated digital presence.",
+  //   "repo": "https://github.com/placeholder/repo"
+  // },
   {
     "title": "CompTIA Notebook",
     "route": "/works/security-notebook",
@@ -81,3 +97,5 @@
     "repo": "https://github.com/placeholder/repo3"
   }
 ]
+
+export default works

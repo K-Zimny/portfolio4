@@ -1,7 +1,7 @@
 import Image from "next/image";
 import style from "@/components/works/works.module.css";
 import Link from "next/link";
-import works from "@/data/works.json";
+import works from "@/data/works.js";
 
 const Work = ({ title, href, src, alt, description }) => {
   return (
@@ -13,7 +13,15 @@ const Work = ({ title, href, src, alt, description }) => {
   );
 };
 
+const testWorks = {
+  work: "work",
+  // work2: "word",
+  woed3: "test"
+}
+
+
 export default function Works() {
+  console.log(testWorks)
   return (
     <div id={style.works}>
       <section id={style["works-grid"]}>

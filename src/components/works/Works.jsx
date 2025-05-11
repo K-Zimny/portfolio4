@@ -13,15 +13,7 @@ const Work = ({ title, href, src, alt, description }) => {
   );
 };
 
-const testWorks = {
-  work: "work",
-  // work2: "word",
-  woed3: "test"
-}
-
-
 export default function Works() {
-  console.log(testWorks)
   return (
     <div id={style.works}>
       <section id={style["works-grid"]}>

@@ -19,15 +19,30 @@
     ]
   },
   {
-    "title": "Optimization",
+    "title": "Embedded & Electronics",
     "items": [
-      "SEO",
-      "Accessibility",
-      "Site Optimization",
-      "QA & Testing",
-      "Debugging",
-      "Documentation"
+      "C/C++",
+      "Python",
+      "Arduino",
+      "Raspberry Pi",
+      "G-code",
+      "Electronics Prototyping",
+      "3D Printing",
+      "CAD (Fusion360)"
     ]
+  },
+  {
+    "title": "AI",
+    "items": [
+      "GPT & Search",
+      "Enhancing Development Efficiency",
+      "Problem Solving",
+      "Architectural Solutions"
+    ]
+  },
+  {
+    "title": "Certificates",
+    "items": ["CompTIA Security+ ", "AWS Certified Cloud Practitioner"]
   },
   {
     "title": "DevOps",
@@ -43,40 +58,6 @@
     ]
   },
   {
-    "title": "Certificates",
-    "items": ["CompTIA Security+ ", "AWS Certified Cloud Practitioner"]
-  },
-  {
-    "title": "Design",
-    "items": [
-      "Responsive Web Design",
-      "Design Fundamentals",
-      "Figma",
-      "UI/UX Principles"
-    ]
-  },
-  {
-    "title": "AI",
-    "items": [
-      "Enhancing Development Efficiency",
-      "Problem Solving",
-      "Architectural Solutions"
-    ]
-  },
-  {
-    "title": "Embedded & Electronics",
-    "items": [
-      "C/C++",
-      "Python",
-      "Arduino",
-      "Raspberry Pi",
-      "G-code",
-      "Electronics Prototyping",
-      "3D Printing",
-      "CAD (Fusion360)"
-    ]
-  },
-  {
     "title": "Tools",
     "items": [
       "Git (GitHub, GitLab)",
@@ -86,6 +67,26 @@
       "yarn",
       "Maven",
       "CLI"
+    ]
+  },
+  {
+    "title": "Optimization",
+    "items": [
+      "SEO",
+      "Accessibility",
+      "Site Optimization",
+      "QA & Testing",
+      "Debugging",
+      "Documentation"
+    ]
+  },
+  {
+    "title": "Design",
+    "items": [
+      "Responsive Web Design",
+      "Design Fundamentals",
+      "Figma",
+      "UI/UX Principles"
     ]
   },
   {

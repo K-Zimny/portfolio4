@@ -16,6 +16,15 @@
  */
 const works = [
   {
+    "title": "GoArmy",
+    "route": "/works/goarmy",
+    "href": "https://wwww.goarmy.com",
+    "src": "/goarmy.png",
+    "alt": "GoArmy",
+    "description": "Official website for the United States Army, serving as a comprehensive resource for potential recruits and the public. Features include interactive career exploration tools, detailed information about military service, and streamlined application processes. The platform provides accessible information about Army careers, benefits, and opportunities while maintaining the highest standards of security and professionalism.",
+    "repo": "https://github.com/placeholder/repo"
+  },
+  {
     "title": "Army Career Map",
     "route": "/works/army-career-map",
     "href": "https://army-career-map.vercel.app/",
@@ -31,6 +40,15 @@ const works = [
     "src": "/coffee-logger.png",
     "alt": "Coffee Logger",
     "description": "Embedded C/C++ microcontroller system integrated with AWS to track and store real-time coffee data. Built with Next.js, React, and cloud-based architecture for seamless data visualization and accessibility.",
+    "repo": "https://github.com/placeholder/repo"
+  },
+  {
+    "title": "KZ Portfolio",
+    "route": "/works/kz-portfolio",
+    "href": "https://portfolio4-weld-alpha.vercel.app/",
+    "src": "/kz-portfolio.png",
+    "alt": "KZ Portfolio",
+    "description": "A modern, responsive portfolio website built with Next.js 15 and React 19. Features include dynamic routing, responsive grid layouts, and optimized image handling. The site showcases a clean, modular architecture with custom components for navigation, banner, and CTAs, all styled with CSS modules and Tailwind CSS.",
     "repo": "https://github.com/placeholder/repo"
   },
   // {

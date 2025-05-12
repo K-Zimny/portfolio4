@@ -30,7 +30,7 @@ const works = [
     "href": "https://army-career-map.vercel.app/",
     "src": "/army-career-map.png",
     "alt": "Army Career Map",
-    "description": "Username: Jane, Password: Doe. This AI app empowers Army prospects to take control of their career journey by providing a clear, personalized roadmap beyond basic training. Through a brief questionnaire, users receive tailored career paths based on their goals and interests.",
+    "description": "This AI app empowers Army prospects to take control of their career journey by providing a clear, personalized roadmap beyond basic training. Through a brief questionnaire, users receive tailored career paths based on their goals and interests.",
     "repo": "https://github.com/placeholder/repo"
   },
   {

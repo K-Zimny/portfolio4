@@ -3,7 +3,7 @@
  * @property {string} title - The title of the work
  * @property {string} route - The internal route path
  * @property {string} href - The external URL
- * @property {string} src - The image source path
+ * @property {string} src - The image source path. Use 2556px x 1331px
  * @property {string} alt - The image alt text
  * @property {string} description - The work description
  * @property {string} repo - The repository URL
@@ -113,7 +113,25 @@ const works = [
     "alt": "Tractatus Design Studio",
     "description": "Web design studio powered by WordPress, crafting sleek, functional, and engaging digital experiences tailored to modern branding needs.",
     "repo": "https://github.com/placeholder/repo3"
-  }
+  },
+  {
+    "title": "The Dovetail Project",
+    "route": "/works/dovetail",
+    "href": "https://thedovetailproject.org/",
+    "src": "/dovetail.png",
+    "alt": "The Dovetail Project",
+    "description": "A Squarespace-powered marketing and informational website for The Dovetail Project. It includes responsive navigation, social media integration, and SEO-optimized metadata. The site leverages Squarespace’s templating system, dynamic styling, and JavaScript rollups to deliver a customizable and mobile-friendly experience.",
+    "repo": "https://github.com/placeholder/repo"
+  },
+  {
+    "title": "Staccato 2011",
+    "route": "/works/staccato2011",
+    "href": "https://staccato2011.com/",
+    "src": "/staccato2011.png",
+    "alt": "Staccato 2011",
+    "description": "A Next.js-powered e-commerce and marketing website for Staccato 2011, a firearms manufacturer. The site includes responsive design, SEO-optimized metadata, and integrates third-party tools like Dynamic Yield for personalization and Google Tag Manager for analytics. Content is dynamically delivered via a headless CMS (Contentstack), while performance is enhanced through asset preloading, font optimization, and CDN usage. It leverages server-side rendering and static generation for a fast, mobile-friendly user experience.",
+    "repo": "https://github.com/placeholder/repo"
+  },
 ]
 
 export default works

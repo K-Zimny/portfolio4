@@ -25,6 +25,14 @@ const works = [
     "repo": "https://github.com/placeholder/repo"
   },
   {
+    "title": "Army Civilian",
+    "route": "/works/army-civilian",
+    "href": "https://civilian.goarmy.com/",
+    "src": "/army-civilian.png",
+    "alt": "Army Civilian",
+    "description": "Official site for U.S. Army Civilian Careers, providing access to federal job listings, application tools, and career resources. Supports professionals seeking civilian roles that contribute to Army missions while promoting growth and public service.",    "repo": "https://github.com/placeholder/repo"
+  },
+  {
     "title": "Army Career Map",
     "route": "/works/army-career-map",
     "href": "https://army-career-map.vercel.app/",
@@ -51,15 +59,6 @@ const works = [
     "description": "A modern, responsive portfolio website built with Next.js 15 and React 19. Features include dynamic routing, responsive grid layouts, and optimized image handling. The site showcases a clean, modular architecture with custom components for navigation, banner, and CTAs, all styled with CSS modules and Tailwind CSS.",
     "repo": "https://github.com/placeholder/repo"
   },
-  // {
-  //   "title": "Connected International",
-  //   "route": "/works/connected-international",
-  //   "href": "https://ci-orcin.vercel.app/",
-  //   "src": "/ci.png",
-  //   "alt": "Connected International",
-  //   "description": "Prototype landing page for an international agency, designed with a minimalistic yet bold fashion aesthetic. Prioritizes clean visuals and striking typography for a sophisticated digital presence.",
-  //   "repo": "https://github.com/placeholder/repo"
-  // },
   {
     "title": "CompTIA Notebook",
     "route": "/works/security-notebook",
@@ -133,5 +132,17 @@ const works = [
     "repo": "https://github.com/placeholder/repo"
   },
 ]
+
+  // Archived Works
+
+  // {
+  //   "title": "Connected International",
+  //   "route": "/works/connected-international",
+  //   "href": "https://ci-orcin.vercel.app/",
+  //   "src": "/ci.png",
+  //   "alt": "Connected International",
+  //   "description": "Prototype landing page for an international agency, designed with a minimalistic yet bold fashion aesthetic. Prioritizes clean visuals and striking typography for a sophisticated digital presence.",
+  //   "repo": "https://github.com/placeholder/repo"
+  // },
 
 export default works

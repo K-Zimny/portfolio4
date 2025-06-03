@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import style from "@/components/body/navigation/navigation.module.css";
 import Link from "next/link";
-import links from "@/data/nav.json";
+import links from "@/data/nav.js";
 
 export default function Navigation() {
   const [navIsOpen, setNavIsOpen] = useState(false);

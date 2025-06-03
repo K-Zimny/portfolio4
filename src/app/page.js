@@ -1,5 +1,5 @@
 import PageHeader from "@/components/pageheader/PageHeader";
-import home from "@/data/home.json";
+import home from "@/data/home.js";
 import style from "@/app/home.module.css";
 import CTA from "@/components/cta/CTA";
 

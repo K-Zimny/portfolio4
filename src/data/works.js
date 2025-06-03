@@ -53,7 +53,7 @@ const works = [
   {
     "title": "KZ Portfolio",
     "route": "/works/kz-portfolio",
-    "href": "https://portfolio4-weld-alpha.vercel.app/",
+    "href": "https://www.kennethzimny.com/",
     "src": "/kz-portfolio.png",
     "alt": "KZ Portfolio",
     "description": "A modern, responsive portfolio website built with Next.js 15 and React 19. Features include dynamic routing, responsive grid layouts, and optimized image handling. The site showcases a clean, modular architecture with custom components for navigation, banner, and CTAs, all styled with CSS modules and Tailwind CSS.",

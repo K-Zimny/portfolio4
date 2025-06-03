@@ -8,7 +8,7 @@ const webSkills = {
     "Tailwind",
     "HTML",
     "APIs",
-    "Wordpress",
+    "WordPress",
     "SQL",
     "Node.js",
     "AEM",

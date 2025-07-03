@@ -18,7 +18,7 @@ const works = [
   {
     "title": "GoArmy",
     "route": "/works/goarmy",
-    "href": "https://wwww.goarmy.com",
+    "href": "https://goarmy.com",
     "src": "/goarmy.png",
     "alt": "GoArmy",
     "description": "Official website for the United States Army, serving as a comprehensive resource for potential recruits and the public. Features include interactive career exploration tools, detailed information about military service, and streamlined application processes. The platform provides accessible information about Army careers, benefits, and opportunities while maintaining the highest standards of security and professionalism.",

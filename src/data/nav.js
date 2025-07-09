@@ -1,37 +1,37 @@
-const careerFocus = process.env.NEXT_PUBLIC_CAREER_FOCUS
-let resume
+const careerFocus = process.env.NEXT_PUBLIC_CAREER_FOCUS;
+let resume;
 
-const frontendResumePath ="/kenneth-zimny-resume-frontend.pdf"
-const cppResumePath ="/kenneth-zimny-resume-cpp.pdf"
+const frontendResumePath = "/kenneth-zimny-resume-frontend.pdf";
+const cppResumePath = "/kenneth-zimny-resume-cpp.pdf";
 
-switch(careerFocus){
-  case("frontend"):
-    resume = frontendResumePath
-    break
-  case("cpp"):
-    resume = cppResumePath
-    break
+switch (careerFocus) {
+  case "frontend":
+    resume = frontendResumePath;
+    break;
+  case "cpp":
+    resume = cppResumePath;
+    break;
   default:
-    resume = frontendResumePath
+    resume = frontendResumePath;
 }
 
 const nav = [
   {
     title: "Skills",
-    href: "/skills"
+    href: "/skills",
   },
   {
     title: "Works",
-    href: "/works"
+    href: "/works",
   },
   {
     title: "Contact",
-    href: "/contact"
+    href: "/contact",
   },
   {
     title: "Resume",
-    href: resume
-  }
-]
+    href: resume,
+  },
+];
 
-export default nav
+export default nav;

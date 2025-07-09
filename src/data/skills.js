@@ -14,9 +14,9 @@ const webSkills = {
     "AEM",
     "HTL",
     "Storybook",
-    "Three.js"
-  ]
-}
+    "Three.js",
+  ],
+};
 
 const embeddedSkills = {
   title: "Embedded & Electronics",
@@ -28,9 +28,9 @@ const embeddedSkills = {
     "G-code",
     "Electronics Prototyping",
     "3D Printing",
-    "CAD (Fusion360)"
-  ]
-}
+    "CAD (Fusion360)",
+  ],
+};
 
 const aiSkills = {
   title: "AI",
@@ -38,14 +38,14 @@ const aiSkills = {
     "LLM Development & Integration",
     "Enhancing Development Efficiency",
     "Problem Analysis & Resolution",
-    "Architectural Solutions"
-  ]
-}
+    "Architectural Solutions",
+  ],
+};
 
 const certificates = {
   title: "Certificates",
-  items: ["CompTIA Security+ ", "AWS Certified Cloud Practitioner"]
-}
+  items: ["CompTIA Security+ ", "AWS Certified Cloud Practitioner"],
+};
 
 const devOpsSkills = {
   title: "DevOps",
@@ -57,9 +57,9 @@ const devOpsSkills = {
     "Vercel",
     "AWS",
     "Dreamhost",
-    "Small, Medium, and Large-Scale Deployments"
-  ]
-}
+    "Small, Medium, and Large-Scale Deployments",
+  ],
+};
 
 const tools = {
   title: "Tools",
@@ -70,9 +70,9 @@ const tools = {
     "npm",
     "yarn",
     "Maven",
-    "CLI"
-  ]
-}
+    "CLI",
+  ],
+};
 
 const optimizationSkills = {
   title: "Optimization",
@@ -82,9 +82,9 @@ const optimizationSkills = {
     "Site Optimization",
     "QA & Testing",
     "Debugging",
-    "Documentation"
-  ]
-}
+    "Documentation",
+  ],
+};
 
 const designSkills = {
   title: "Design",
@@ -92,9 +92,9 @@ const designSkills = {
     "Responsive Web Design",
     "Design Fundamentals",
     "Figma",
-    "UI/UX Principles"
-  ]
-}
+    "UI/UX Principles",
+  ],
+};
 
 const collaborationSkills = {
   title: "Collaboration",
@@ -102,9 +102,9 @@ const collaborationSkills = {
     "Agile Methodologies",
     "Team Collaboration",
     "Developer Experience",
-    "Customer & Client Relationships"
-  ]
-}
+    "Customer & Client Relationships",
+  ],
+};
 
 const softSkills = {
   title: "Soft Skills",
@@ -112,9 +112,9 @@ const softSkills = {
     "Excellent Communication",
     "Critical Thinking & Reflection",
     "Strategic Planning & Organization",
-    "Professionalism & Passion"
-  ]
-}
+    "Professionalism & Passion",
+  ],
+};
 
 const frontendSkills = [
   webSkills,
@@ -126,8 +126,8 @@ const frontendSkills = [
   collaborationSkills,
   softSkills,
   certificates,
-  embeddedSkills
-]
+  embeddedSkills,
+];
 
 const cppSkills = [
   embeddedSkills,
@@ -139,21 +139,21 @@ const cppSkills = [
   collaborationSkills,
   softSkills,
   certificates,
-  designSkills
-]
+  designSkills,
+];
 
-const careerFocus = process.env.NEXT_PUBLIC_CAREER_FOCUS
-let skills
+const careerFocus = process.env.NEXT_PUBLIC_CAREER_FOCUS;
+let skills;
 
-switch(careerFocus) {
+switch (careerFocus) {
   case "frontend":
-    skills = frontendSkills
-    break
+    skills = frontendSkills;
+    break;
   case "cpp":
-    skills = cppSkills
-    break
+    skills = cppSkills;
+    break;
   default:
-    skills = frontendSkills
+    skills = frontendSkills;
 }
 
-export default skills
+export default skills;

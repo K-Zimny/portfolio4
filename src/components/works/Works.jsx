@@ -3,10 +3,19 @@ import style from "@/components/works/works.module.css";
 import Link from "next/link";
 import works from "@/data/works.js";
 
-const Work = ({ title, href, src, alt, description }) => {
+const Work = ({ title, href, src, alt, description, index }) => {
+  const imagePriorityThreshold = 1; // 0 indexed
+
   return (
     <a href={href} target="_blank" className={style.work}>
-      <Image src={src} alt={alt} width={1920} height={1080}></Image>
+      <Image
+        src={src}
+        alt={alt}
+        width={1920}
+        height={1080}
+        loading={index <= imagePriorityThreshold ? "eager" : "lazy"}
+        fetchPriority={index <= imagePriorityThreshold ? "high" : "auto"}
+      ></Image>
       <h2>{title}</h2>
       <p className={style.description}>{description}</p>
     </a>
@@ -17,7 +26,7 @@ export default function Works() {
   return (
     <div id={style.works}>
       <section id={style["works-grid"]}>
-        {works.map((work) => {
+        {works.map((work, i) => {
           return (
             <Work
               key={work.title}
@@ -26,6 +35,7 @@ export default function Works() {
               src={work.src}
               alt={work.alt}
               description={work.description}
+              index={i}
             ></Work>
           );
         })}

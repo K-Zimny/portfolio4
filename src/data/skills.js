@@ -7,6 +7,7 @@ const webSkills = {
     "CSS",
     "Tailwind",
     "HTML",
+    "Cypress",
     "APIs",
     "WordPress",
     "SQL",
@@ -50,12 +51,13 @@ const certificates = {
 const devOpsSkills = {
   title: "DevOps",
   items: [
+    "AWS",
     "DynamoDB",
     "Amplify",
     "API Gateway",
     "Lambda",
     "Vercel",
-    "AWS",
+    "GitLab Pipelines",
     "Dreamhost",
     "Small, Medium, and Large-Scale Deployments",
   ],
@@ -64,9 +66,9 @@ const devOpsSkills = {
 const tools = {
   title: "Tools",
   items: [
+    "Jira / Atlassian",
     "Git (GitHub, GitLab)",
     "Bitbucket",
-    "Jira / Atlassian",
     "npm",
     "yarn",
     "Maven",

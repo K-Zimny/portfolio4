@@ -10,13 +10,13 @@ export default function Home() {
     <div>
       <PageHeader title={name} subtitle={position} />
 
-      <p>{intro}</p>
+      <p data-test="intro">{intro}</p>
 
       <ul id={style["site-links"]}>
         {siteLinks.map((link) => {
           return (
             <li className="!ml-0 !list-none" key={link.title}>
-              <CTA href={link.href}>{link.title}</CTA>              
+              <CTA href={link.href}>{link.title}</CTA>
             </li>
           );
         })}

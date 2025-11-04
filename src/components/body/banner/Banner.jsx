@@ -7,6 +7,7 @@ export default function Banner() {
     <header id={style.banner}>
       <Link href="/" aria-label="Kenneth Zimny Home Page">
         <Image
+          id="site-logo"
           src="/kz-logo.svg"
           alt="Kenneth Zimny Site Logo"
           fill

@@ -6,7 +6,7 @@ import contacts from "@/data/contacts.json";
 
 export default function ContactBar() {
   return (
-    <div className={style["contact-bar"]}>
+    <div data-test="contact-bar" className={style["contact-bar"]}>
       <ul>
         {contacts.map((contact) => {
           return (

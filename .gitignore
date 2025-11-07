@@ -44,3 +44,10 @@ next-env.d.ts
 /AC
 /DESIGNS
 /DATA
+
+# Cypress
+/cypress/e2e/1-getting-started/
+/cypress/e2e/2-advanced-examples/
+/cypress/fixtures/profile.json
+/cypress/fixtures/users.json
+/cypress/screenshots

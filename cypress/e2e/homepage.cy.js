@@ -3,6 +3,10 @@ describe("Perform Homepage E2E Tests", () => {
     cy.visit("http://localhost:3000");
   });
 
+  it("Should verify navigation structure and links", () => {
+    cy.testNav({ returnToOriginalPage: true });
+  });
+
   it("Should contain Logo", () => {
     cy.get("#site-logo").should("exist");
     cy.get("#site-logo").should("be.visible");

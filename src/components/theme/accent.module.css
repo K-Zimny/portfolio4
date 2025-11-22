@@ -1,0 +1,23 @@
+.accent {
+  --display-mobile: block;
+  --display-desktop: none;
+
+  /* Tablet breakpoint */
+  @media (min-width: 768px) {
+    --display-mobile: none;
+    --display-desktop: block;
+  }
+
+  width: 100%;
+  height: 1px;
+  background-color: #a3a3a3;
+  margin-block: var(--space_sm);
+
+  &[data-type="mobile"] {
+    display: var(--display-mobile);
+    margin-top: none;
+  }
+  &[data-type="desktop"] {
+    display: var(--display-desktop);
+  }
+}

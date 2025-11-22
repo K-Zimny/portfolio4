@@ -37,6 +37,8 @@ This structure:
 All command files are automatically imported in `e2e.js`, so commands are available in all test files.
 
 > **📚 For large-scale projects:** See [LARGE_SCALE_PATTERNS.md](./LARGE_SCALE_PATTERNS.md) for patterns used by enterprise projects and strategies for scaling beyond 100+ tests.
+>
+> **🔒 Need to scope commands?** See [SCOPING_COMMANDS.md](./SCOPING_COMMANDS.md) for methods to scope commands to specific test files or suites.
 
 ### Command Architecture
 

@@ -104,6 +104,8 @@ if (Cypress.spec.relative.includes("auth")) {
 
 **Used by:** Very large projects (1000+ tests) with performance concerns
 
+> **📚 For detailed scoping options:** See [SCOPING_COMMANDS.md](./SCOPING_COMMANDS.md) for all methods to scope commands, including conditional loading, helper functions, and more.
+
 ---
 
 ### Pattern 4: Page Object Model + Commands

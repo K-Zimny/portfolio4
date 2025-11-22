@@ -10,14 +10,11 @@
   }
 }
 .category {
-  padding-bottom: calc(var(--space_lg) * 1);
+  padding-bottom: calc(var(--space_lg) * 2.5);
 }
 
 .category h2 {
   margin-bottom: var(--space_md);
-  text-decoration: underline;
-  text-decoration-color: var(--color_gray);
-  text-underline-offset: 3px;
 }
 
 .category li:last-child {

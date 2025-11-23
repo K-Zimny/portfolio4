@@ -56,6 +56,16 @@ const works = [
     repo: "https://github.com/placeholder/repo",
   },
   {
+    title: "Temperature & Humidity Tracker",
+    route: "/works/temp-humidity",
+    href: "/image-viewer?src=/temp-humidity.webp",
+    src: "/temp-humidity.webp",
+    alt: "A dashboard showing temperature and humidity readings in a residential setting.",
+    description:
+      "A home monitoring system that tracks and displays real-time temperature and humidity readings using a Raspberry Pi and BME280 sensor. Built with Flask, SQLite, and Jinja templating, it provides a practical solution for monitoring environmental conditions in residential settings.",
+    repo: "https://github.com/K-Zimny/Pi-dht",
+  },
+  {
     title: "KZ Portfolio",
     route: "/works/kz-portfolio",
     href: "https://www.kennethzimny.com/",

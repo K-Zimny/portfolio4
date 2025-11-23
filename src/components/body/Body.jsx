@@ -2,6 +2,7 @@ import style from "@/components/body/body.module.css";
 
 import Navigation from "./navigation/Navigation";
 import Banner from "./banner/Banner";
+import Accent from "../theme/Accent";
 
 export default function Body({ children }) {
   return (
@@ -10,7 +11,7 @@ export default function Body({ children }) {
         <Banner />
         <Navigation />
       </div>
-      <hr className={style.break} />
+      <Accent dataType="mobile" />
       <main>{children}</main>
     </div>
   );

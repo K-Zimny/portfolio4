@@ -42,7 +42,7 @@ const works = [
     src: "/army-career-map.webp",
     alt: "Army Career Map",
     description:
-      "This AI app empowers Army prospects to take control of their career journey by providing a clear, personalized roadmap beyond basic training. Through a brief questionnaire, users receive tailored career paths based on their goals and interests. (Best viewed in Chrome)",
+      "This AI app empowers Army prospects to take control of their career journey by providing a clear, personalized roadmap beyond basic training. Through a brief questionnaire, users receive tailored career paths based on their goals and interests. As the spearhead for Army AI initiatives, this project inspired the development of new AI-powered solutions across the organization. (Best viewed in Chrome)",
     repo: "https://github.com/placeholder/repo",
   },
   {

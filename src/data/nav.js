@@ -1,7 +1,7 @@
 const careerFocus = process.env.NEXT_PUBLIC_CAREER_FOCUS;
 let resume;
 
-const frontendResumePath = "/kenneth-zimny-resume-frontend.pdf";
+const frontendResumePath = "/kenneth-zimny-resume-fullstack.pdf";
 const cppResumePath = "/kenneth-zimny-resume-cpp.pdf";
 
 switch (careerFocus) {

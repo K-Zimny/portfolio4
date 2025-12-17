@@ -24,7 +24,7 @@ switch (careerFocus) {
 
 const home = {
   name: "Kenneth Zimny",
-  position: "Frontend Developer",
+  position: "Full-Stack Developer",
   intro: intro,
   siteLinks: [
     { href: "/skills", title: "Skills" },

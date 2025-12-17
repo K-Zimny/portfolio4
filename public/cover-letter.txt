@@ -1,6 +1,6 @@
 Dear Hiring Manager,
 
-I am a frontend developer with experience building secure, scalable, and high-performing web applications. My background spans frontend development, full-stack projects, and embedded systems, giving me a strong foundation for delivering responsive, user-focused solutions.
+I am a Full-Stack Developer with experience building secure, scalable, and high-performing web applications. My background spans frontend development, full-stack projects, and embedded systems, giving me a strong foundation for delivering responsive, user-focused solutions.
 
 At Critical Mass, I have developed high-traffic applications using React and Adobe Experience Manager, ensuring strong security and performance standards. I also bring experience from freelance and agency roles where I designed and built websites with WordPress, Next.js, and custom solutions. This mix of professional and entrepreneurial work has strengthened my ability to adapt, solve problems, and collaborate effectively.
 

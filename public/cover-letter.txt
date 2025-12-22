@@ -1,10 +1,10 @@
 Dear Hiring Manager,
 
-I am a Full-Stack Developer with experience building secure, scalable, and high-performing web applications. My background spans frontend development, full-stack projects, and embedded systems, giving me a strong foundation for delivering responsive, user-focused solutions.
+I am a Full-Stack Developer with experience building secure, scalable, and high-performing web applications. My background spans frontend development, full-stack application projects, and embedded systems, giving me a strong foundation for delivering responsive, user-focused solutions.
 
 At Critical Mass, I have developed high-traffic applications using React and Adobe Experience Manager, ensuring strong security and performance standards. I also bring experience from freelance and agency roles where I designed and built websites with WordPress, Next.js, and custom solutions. This mix of professional and entrepreneurial work has strengthened my ability to adapt, solve problems, and collaborate effectively.
 
-I am proficient with React, Next.js, JavaScript, CSS, AEM, and cloud platforms such as AWS and Vercel. I also hold certifications in CompTIA Security+ and AWS Cloud Practitioner, underscoring my focus on secure and scalable development practices.
+I am proficient with React, Next.js, JavaScript, CSS, AEM, and cloud platforms such as AWS and Vercel. I also hold certifications in CompTIA Security+ and the AWS Cloud Practitioner, underscoring my focus on secure and scalable development practices.
 
 I would welcome the opportunity to bring these skills to your team and contribute to building modern, user-centered digital experiences. Thank you for your time and consideration.
 

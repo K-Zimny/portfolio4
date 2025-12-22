@@ -13,7 +13,10 @@ describe("PageHeader Component", () => {
 
   it("Should render with title and subtitle", () => {
     cy.mount(
-      <PageHeader title="Kenneth Zimny" subtitle="Full-Stack Developer" />
+      <PageHeader
+        title="Kenneth Zimny"
+        subtitle="Full-Stack Application Developer"
+      />
     );
 
     cy.get("[data-component='PageHeader']").should("exist");
@@ -24,7 +27,7 @@ describe("PageHeader Component", () => {
     cy.get("[data-component='PageHeader'] p").should("exist");
     cy.get("[data-component='PageHeader'] p").should(
       "have.text",
-      "Full-Stack Developer"
+      "Full-Stack Application Developer"
     );
   });
 

@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Kenneth Zimny — Full-Stack Application Developer
 
-## Getting Started
+Welcome to the source for **kennethzimny.com**, the personal portfolio of Kenneth Zimny. This website showcases professional skills, project work, and contact information for a seasoned full-stack developer.
 
-First, run the development server:
+## 🧠 About
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Kenneth is an accomplished Full-Stack Developer with experience in frontend, backend, and application development. He builds secure, scalable, high-performing web applications that align technical strategy with business goals. Skilled in working independently or collaborating as part of a team.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Key Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Homepage** — Professional title and summary  
+- **Skills** — Technical, design, optimization, DevOps, collaboration, and embedded systems skills (React, Next.js, WordPress, AWS, Raspberry Pi, Python, and more)
+- **Works** — Project showcase with links and descriptions (GoArmy, Army Career Map, Coffee Logger, CompTIA Notebook, Map Gen, and more) 
+- **Contact** — Email and social links  
+- **Resume** — Downloadable or viewable professional resume
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Tech Stack
 
-## Learn More
+- **Frontend:** React, Next.js, Tailwind CSS, HTML, JavaScript  
+- **Backend:** Node.js, APIs  
+- **CMS:** WordPress, AEM  
+- **Tools:** Git, Jira, Storybook, Figma  
+- **Cloud / DevOps:** AWS, Vercel, DynamoDB  
+- **Embedded & Maker:** Raspberry Pi, Arduino, Python, C/C++
 
-To learn more about Next.js, take a look at the following resources:
+## 📁 Projects Highlights
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+A curated list of featured projects:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **GoArmy** — Official U.S. Army recruitment site  
+- **Army Career Map** — AI-powered career planning tool  
+- **Coffee Logger** — Embedded system with AWS integration  
+- **CompTIA Notebook** — Interactive study and flashcard web app  
+- **Map Gen** — Algorithm-driven map generation web app  
+- **Design & Brand Sites** — WordPress and Squarespace projects for real clients 
 
-## Deploy on Vercel
+## 💼 Usage
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This repository can be used as the basis for:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Portfolio website templates
+- Case study documentation
+- Resume-linked project showcases
+- Personal branding and career demonstration
+
+## 📬 Contact
+
+Reach out via:
+
+- Email
+- LinkedIn
+- GitHub

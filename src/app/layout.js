@@ -1,4 +1,5 @@
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { Karla } from "next/font/google";
 import "./globals.css";
 
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
         <Footer />
         <SpeedInsights />
       </body>
+      <GoogleAnalytics gaId="G-XTZS21XF5H" />
     </html>
   );
 }

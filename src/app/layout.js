@@ -1,3 +1,4 @@
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Karla } from "next/font/google";
 import "./globals.css";
 
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
       <body className={`${karla.variable} antialiased`}>
         <Body>{children}</Body>
         <Footer />
+        <SpeedInsights />
       </body>
     </html>
   );
